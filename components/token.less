@@ -1,0 +1,46 @@
+// @paid-clp-main-width: @line-length-md;
+// @paid-clp-main-width-lg: unit(700 * @px-to-rem, rem);
+// @paid-clp-sidebar-width: unit(340 * @px-to-rem, rem);
+// @space-paid-clp-content-spacing: @space-md;
+// @paid-clp-max-width: (@space-paid-clp-content-spacing * 2) + @paid-clp-main-width + @space-xl +
+//     @paid-clp-sidebar-width + (@space-paid-clp-content-spacing * 2);
+@paid-clp-max-width: 108.4rem;
+// @paid-clp-max-width-lg: (@space-paid-clp-content-spacing * 2) + @paid-clp-main-width-lg + @space-xl +
+//     @paid-clp-sidebar-width + (@space-paid-clp-content-spacing * 2);
+// @breakpoint-paid-clp-md-max: unit(round((1079 * @media-query-px-to-rem-ratio), 2), em);
+// @breakpoint-paid-clp-lg-min: unit(round((1080 * @media-query-px-to-rem-ratio), 2), em);
+// @breakpoint-paid-clp-xl-min: unit(round((1180 * @media-query-px-to-rem-ratio), 2), em);
+
+// @free-clp-container-max-width: @line-length-md;
+
+// @component-border-top-bottom-padding: @space-sm;
+
+@zindex-clp-shortcut-navigation: 1;
+@zindex-clp-slider-menu: @zindex-clp-shortcut-navigation + 1;
+
+.clp-container-margins() {
+    margin: 0 auto;
+    max-width: @paid-clp-max-width;
+
+    // @media screen and (min-width: @breakpoint-paid-clp-xl-min) {
+    //     max-width: @paid-clp-max-width-lg;
+    // }
+}
+
+// TODO: Clean this up after the experiment https://udemyjira.atlassian.net/browse/TB-10177 is over.
+.clp-backgrounds(@padding) {
+    .dark-background {
+        background-color: @background-color-dark;
+        padding: @padding;
+    }
+
+    .white-background {
+        background-color: @background-color-default;
+        padding: @padding;
+    }
+
+    .grey-background {
+        background-color: @background-color-pale;
+        padding: @padding;
+    }
+}

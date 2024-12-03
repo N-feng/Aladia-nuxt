@@ -1,0 +1,263 @@
+// @clp-background-top-padding: @space-lg;
+
+.paid-course-landing-page__container {
+  position: relative; // for sidebar
+
+  p, h1, h2, h3, h4, h5, h6, ul, ol {
+      max-width: @paid-clp-max-width;
+  }
+
+  .course-landing-page__shortcut_navigation,
+  .course-landing-page__main-content {
+    //   margin-left: @space-md;
+    //   margin-right: @space-md;
+
+    //   @media (max-width: @viewport-sm-max) {
+    //       margin-top: @space-md;
+    //   }
+  }
+
+  .course-landing-page__nav_container {
+      display: block;
+  }
+
+  .top-container {
+    //   padding-top: @space-xs;
+
+    //   @media (min-width: @viewport-sm-min) and (max-width: @breakpoint-paid-clp-md-max) {
+        //   padding-top: @space-sm;
+    //   }
+
+    //   @media (min-width: @breakpoint-paid-clp-lg-min) {
+        //   padding-top: @space-md;
+    //   }
+  }
+
+  .background-inner-position-container {
+      .clp-container-margins();
+  }
+
+  .dark-background-inner-text-container {
+    //   @media (min-width: @breakpoint-paid-clp-lg-min) {
+        //   color: @color-text-white;
+
+        //   .ud-btn {
+        //       border-color: @color-white;
+            //   color: @color-text-white;
+        //   }
+
+        //   .ud-btn-link {
+        //       color: @color-indigo-200;
+        //   }
+
+          .ud-btn-primary,
+          .ud-btn-secondary {
+              .ud-btn-white-outline();
+          }
+
+          /**
+              This is for:
+              - TopicMenu Breadcrumbs
+              - Rating component in the dark background
+              - Instructor links
+
+              TODO: a tag override stopped working after webpack5 upgrade. We published a quick fix but we'll need
+              to fix this properly.
+           */
+          a, :global(.ud-instructor-links) {
+              color: @color-text-link-inverted;
+          }
+
+          .ud-block-list-item,
+          .ud-icon {
+              color: @color-white;
+          }
+
+          .ud-clp-price-text {
+              color: @color-text-white;
+          }
+
+          .clp-component-render {
+              .ud-clp-available-coupon-code {
+                  color: @color-text-white;
+              }
+              .ud-clp-apply-available-coupon-code {
+                  color: @color-text-white;
+              }
+          }
+
+          .ud-clp-list-price {
+              color: @color-gray-200;
+          }
+
+          .ud-clp-redeem-coupon {
+              color: @color-red-200;
+          }
+
+          .ud-text-input,
+          .ud-fake-toggle-input {
+              border-color: @color-white;
+          }
+
+          span[data-checked='checked'] ~ :global(.ud-accordion-panel-toggler) .ud-fake-toggle-radio-small {
+              // Override PurchaseOptions.
+              background: @color-white;
+              box-shadow: 0 0 0 @radio-button-small-outline @background-color-dark inset;
+          }
+      }
+  }
+
+  .paid-course-landing-page__body {
+      .clp-container-margins();
+      @media screen and (min-width: @viewport-sm-min) {
+          padding-top: @space-lg;
+      }
+  }
+
+  .course-landing-page__topic-menu {
+      margin-bottom: @space-xs;
+  }
+
+  .course-landing-page__introduction-asset__main {
+      margin-bottom: @space-md;
+  }
+
+  .course-landing-page__introduction-asset__main-endorsed {
+      margin-bottom: @space-sm;
+  }
+
+  .sidebar-container-position-manager {
+      .clp-container-margins();
+  }
+
+  .course-landing-page_sidebar-container {
+      display: none;
+  }
+
+  @media (min-width: @viewport-sm-min) and (max-width: @breakpoint-paid-clp-md-max) {
+      .course-landing-page__topic-menu {
+          margin-bottom: @space-sm;
+      }
+
+      .course-landing-page__introduction-asset__main {
+          margin-bottom: @space-lg;
+      }
+
+      .course-landing-page__introduction-asset__main-endorsed {
+          margin-bottom: @space-md;
+      }
+  }
+
+  @media (min-width: @viewport-md-min) and (max-width: @breakpoint-paid-clp-md-max) {
+      .course-landing-page__shortcut_navigation,
+      .course-landing-page__main-content {
+          max-width: @paid-clp-main-width;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: @space-lg;
+      }
+
+      .course-landing-page__topic-menu {
+          padding-bottom: 0;
+      }
+
+      .course-landing-page__lead-endorsed {
+          padding-bottom: @space-sm;
+      }
+
+      .money-back {
+          margin-top: 0;
+      }
+
+      .purchase-section-separator {
+          margin: @space-lg 0;
+      }
+  }
+
+  @media (min-width: @breakpoint-paid-clp-lg-min) {
+      // Injecting the background color and padding for the backgrounds
+      // .clp-backgrounds(@padding: @clp-background-top-padding 0 @space-lg 0);
+      // ------------------------
+      // If we're showing endorsment, make the padding smaller
+      .top-container-endorsed {
+          padding-bottom: @space-md;
+      }
+
+      .course-landing-page__shortcut_navigation,
+      .course-landing-page__main-content {
+          max-width: @paid-clp-main-width;
+          margin-left: @space-paid-clp-content-spacing * 2;
+          margin-right: @space-paid-clp-content-spacing * 2;
+      }
+
+      .course-landing-page__topic-menu {
+          max-width: @paid-clp-main-width;
+          margin: 0 @space-xl @space-sm;
+
+          .topic-menu {
+              position: relative;
+              top: -@space-xs; // Align with SidebarContainer.
+          }
+
+          /**
+           * @note:: This is a temporary fix, after webpack5 upgrade, somehow overriding the a tag from the
+           * .dark-background-inner-text-container in this file stopped working.
+           *  https://github.com/udemy/website-django/blob/470e7333b0386c8689
+           * c49b38cb781be5d15a4309/static/src/udemy/js/course-landing-page/paid-course-landing-page.less#L73
+           *
+           */
+          &.dark-background-inner-text-container {
+              @media (min-width: @breakpoint-paid-clp-lg-min) {
+                  a {
+                      color: @color-text-link-inverted;
+                  }
+              }
+          }
+      }
+
+      .course-landing-page__topic-menu-endorsed {
+          margin-bottom: 0;
+      }
+
+      .course-landing-page__introduction-asset__main {
+          display: none;
+      }
+
+      .course-landing-page__purchase-section__main {
+          display: none;
+      }
+
+      .ud-clp-list-price, .ud-clp-percent-discount {
+          font-size: @font-size-md;
+      }
+
+      .course-landing-page_sidebar-container {
+          display: block;
+          position: absolute;
+          // top: @clp-background-top-padding;
+          margin-left: @space-xl + @paid-clp-main-width + @space-xl;
+      }
+  }
+
+  @media (min-width: @breakpoint-paid-clp-xl-min) {
+      p, h1, h2, h3, h4, h5, h6, ul, ol {
+          max-width: @paid-clp-max-width-lg;
+      }
+
+      .course-landing-page__shortcut_navigation,
+      .course-landing-page__main-content {
+          max-width: @paid-clp-main-width-lg;
+      }
+
+      .course-landing-page_sidebar-container {
+          margin-left: @space-xl + @paid-clp-main-width-lg + @space-xl;
+      }
+  }
+
+  // This is a fix for the certification unit's unnecessary padding.
+  // Certification unit puts a padding top when it's not a first child which causes unnecessary
+  // spacing when combines with component-margin
+  .course-certification-unit {
+      padding-top: 0;
+  }
+}
