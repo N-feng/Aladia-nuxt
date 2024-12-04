@@ -516,7 +516,7 @@
           </div>
         </div>
       </div>
-      <div class="component-margin">
+      <div class="component-margin mb-12">
         <span id="objective" class="in-page-offset-anchor"></span>
         <div data-purpose="course-curriculum">
           <h2
@@ -545,7 +545,7 @@
           </div>
           <div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--20"
@@ -554,21 +554,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start	justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--20"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI flex-1	ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="true"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--21"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1	"
                         >Course Overview</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -581,7 +581,7 @@
                 <svg
                   aria-hidden="true"
                   focusable="false"
-                  class="ud-icon ud-icon-small ud-icon-color-neutral accordion-panel-module--expand-icon--knJ5Q"
+                  class="ud-icon ud-icon-small ud-icon-color-neutral accordion-panel-module--expand-icon--knJ5Q expand-icon"
                 >
                   <use xlink:href="#icon-expand"></use>
                 </svg>
@@ -593,12 +593,12 @@
                 role="group"
               >
                 <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
+                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R py-10 px-8"
                 >
                   <ul class="ud-unstyled-list ud-block-list">
                     <li>
                       <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
+                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm py-4"
                       >
                         <svg
                           aria-hidden="true"
@@ -607,14 +607,14 @@
                         >
                           <use xlink:href="#icon-article"></use>
                         </svg>
-                        <div class="ud-block-list-item-content">
+                        <div class="ud-block-list-item-content flex flex-1">
                           <div>
-                            <div class="section--row--MuPRa">
+                            <div class="section--row--MuPRa flex">
                               <span class="section--item-title--EWIuI"
                                 >Auto-Welcome Message</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -641,7 +641,7 @@
                     </li>
                     <li>
                       <div
-                        class="section--previewable-item---IMY- ud-block-list-item ud-block-list-item-small ud-block-list-item-link ud-text-sm"
+                        class="section--previewable-item---IMY- ud-block-list-item ud-block-list-item-small ud-block-list-item-link ud-text-sm py-4"
                       >
                         <svg
                           aria-hidden="true"
@@ -650,19 +650,19 @@
                         >
                           <use xlink:href="#icon-video"></use>
                         </svg>
-                        <div class="ud-block-list-item-content">
+                        <div class="ud-block-list-item-content flex flex-1">
                           <div>
-                            <div class="section--row--MuPRa">
+                            <div class="section--row--MuPRa flex">
                               <button
                                 type="button"
-                                class="ud-btn ud-btn-large ud-btn-link ud-text-sm section--item-title--EWIuI"
+                                class="ud-btn ud-btn-large ud-btn-link ud-text-sm section--item-title--EWIuI "
                               >
-                                <span class="ud-btn-label"
+                                <span class="ud-btn-label underline"
                                   >Course Introduction</span
                                 ></button
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -682,14 +682,14 @@
                           ></span
                           ><button
                             type="button"
-                            class="ud-btn ud-btn-large ud-btn-link ud-text-sm"
+                            class="ud-btn ud-btn-large ud-btn-link ud-text-sm h-auto	"
                           >
                             <span
-                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5"
+                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5 underline"
                               >预览</span
                             ></button
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em ml-10"
                             >06:39</span
                           >
                         </div>
@@ -697,7 +697,7 @@
                     </li>
                     <li>
                       <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
+                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm py-4"
                       >
                         <svg
                           aria-hidden="true"
@@ -706,14 +706,14 @@
                         >
                           <use xlink:href="#icon-video"></use>
                         </svg>
-                        <div class="ud-block-list-item-content">
+                        <div class="ud-block-list-item-content flex flex-1">
                           <div>
-                            <div class="section--row--MuPRa">
+                            <div class="section--row--MuPRa flex">
                               <span class="section--item-title--EWIuI"
                                 >Course Curriculum Overview</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -740,7 +740,7 @@
                     </li>
                     <li>
                       <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
+                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm py-4"
                       >
                         <svg
                           aria-hidden="true"
@@ -749,14 +749,14 @@
                         >
                           <use xlink:href="#icon-video"></use>
                         </svg>
-                        <div class="ud-block-list-item-content">
+                        <div class="ud-block-list-item-content flex flex-1">
                           <div>
-                            <div class="section--row--MuPRa">
+                            <div class="section--row--MuPRa flex">
                               <span class="section--item-title--EWIuI"
                                 >Why Python?</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -783,7 +783,7 @@
                     </li>
                     <li>
                       <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
+                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm py-4"
                       >
                         <svg
                           aria-hidden="true"
@@ -792,14 +792,14 @@
                         >
                           <use xlink:href="#icon-article"></use>
                         </svg>
-                        <div class="ud-block-list-item-content">
+                        <div class="ud-block-list-item-content flex flex-1">
                           <div>
-                            <div class="section--row--MuPRa">
+                            <div class="section--row--MuPRa flex">
                               <span class="section--item-title--EWIuI"
                                 >Course FAQs</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -829,7 +829,7 @@
               </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--24"
@@ -838,21 +838,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--24"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--25"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Python Setup</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -870,251 +870,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--25"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Command Line Basics</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >08:15</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="section--previewable-item---IMY- ud-block-list-item ud-block-list-item-small ud-block-list-item-link ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <button
-                                type="button"
-                                class="ud-btn ud-btn-large ud-btn-link ud-text-sm section--item-title--EWIuI"
-                              >
-                                <span class="ud-btn-label"
-                                  >Installing Python (Step by Step)</span
-                                ></button
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><button
-                            type="button"
-                            class="ud-btn ud-btn-large ud-btn-link ud-text-sm"
-                          >
-                            <span
-                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5"
-                              >预览</span
-                            ></button
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >23:08</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Running Python Code</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >17:50</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Getting the Notebooks and the Course
-                                Material</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >02:22</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Git and Github Overview (Optional)</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >02:49</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--28"
@@ -1123,21 +881,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--28"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--29"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Python Object and Data Structure Basics</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -1155,1403 +913,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--29"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Introduction to Python Data Types</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >04:02</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="section--previewable-item---IMY- ud-block-list-item ud-block-list-item-small ud-block-list-item-link ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <button
-                                type="button"
-                                class="ud-btn ud-btn-large ud-btn-link ud-text-sm section--item-title--EWIuI"
-                              >
-                                <span class="ud-btn-label"
-                                  >Python Numbers</span
-                                ></button
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><button
-                            type="button"
-                            class="ud-btn ud-btn-large ud-btn-link ud-text-sm"
-                          >
-                            <span
-                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5"
-                              >预览</span
-                            ></button
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >04:11</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Numbers: Simple Arithmetic</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Numbers - FAQ</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:14</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Numbers Quiz</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Variable Assignments</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:54</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Introduction to Strings</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:10</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Quick Print Check</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Indexing and Slicing with Strings</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >08:29</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >String Indexing</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >String Slicing</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >String Properties and Methods</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >09:27</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Strings -FAQ</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:10</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Strings Quiz</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Print Formatting with Strings</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:50</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Print Formatting FAQs</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:36</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Print Formatting</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Lists in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:42</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Lists</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Lists - FAQ</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:12</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Lists Quiz</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Dictionaries in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >10:39</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Dictionaries</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Dictionaries - FAQ</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:13</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Dictionaries Quiz</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Tuples with Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >04:49</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Tuples Quiz</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Sets in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >02:49</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Sets</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Booleans in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >03:07</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Sets and Booleans Quiz</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >3 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >I/O with Basic Files in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >17:46</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >File I/O</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Resources for More Basic Practice</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:24</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Python Objects and Data Structures Assessment
-                                Test Overview</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >06:48</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Python Objects and Data Structures Assessment
-                                Test Solutions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >09:47</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--32"
@@ -2560,21 +924,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--32"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--33"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Python Comparison Operators</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -2592,152 +956,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--33"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Comparison Operators in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >03:26</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Chaining Comparison Operators in Python with
-                                Logical Operators</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:42</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Comparison Operators Quiz</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >5 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--34"
@@ -2746,21 +967,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--34"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--35"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Python Statements</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -2778,336 +999,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--35"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >If Elif and Else Statements in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >09:06</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="section--previewable-item---IMY- ud-block-list-item ud-block-list-item-small ud-block-list-item-link ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <button
-                                type="button"
-                                class="ud-btn ud-btn-large ud-btn-link ud-text-sm section--item-title--EWIuI"
-                              >
-                                <span class="ud-btn-label"
-                                  >For Loops in Python</span
-                                ></button
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><button
-                            type="button"
-                            class="ud-btn ud-btn-large ud-btn-link ud-text-sm"
-                          >
-                            <span
-                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5"
-                              >预览</span
-                            ></button
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >18:17</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >While Loops in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >10:35</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Useful Operators in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >16:08</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >List Comprehensions in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:26</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Python Statements Test Overview</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >02:27</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Python Statements Test Solutions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:19</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--38"
@@ -3116,21 +1010,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--38"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--39"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Methods and Functions</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -3148,1104 +1042,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--39"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Methods and the Python Documentation</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:04</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Introduction to Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >03:09</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >def Keyword</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:42</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Basics of Python Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:05</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Logic with Python Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >12:19</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Tuple Unpacking with Python Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >08:55</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Interactions between Python Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >10:48</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Overview of Quick Function Exercises
-                                #1-10</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >01:06</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-lightbulb-off"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Quick Check on Solutions Link</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #1: print Hello World</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #2: print Hello Name</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #3 - simple Boolean</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #4 - using Booleans</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #5: simple math</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #6: is even</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #7: is greater</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >*args and **kwargs in Python</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >12:01</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #8: *args</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #9: pick evens</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-code"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Functions #10: skyline</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >1 问题</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Function Practice Exercises - Overview</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >04:55</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Function Practice Exercises - Solutions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >10:03</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Function Practice - Solutions Level One</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:20</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Function Practice - Solutions Level Two</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:25</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Function Exercise Solutions - Challenge
-                                Problem</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >13:16</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Lambda Expressions, Map, and Filter
-                                Functions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >13:36</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Nested Statements and Scope</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >16:02</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Methods and Functions Homework Overview</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:59</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Methods and Functions Homework -
-                                Solutions</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >19:11</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--40"
@@ -4254,21 +1053,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--40"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--41"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Milestone Project - 1</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -4286,411 +1085,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--41"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Introduction to Warm Up Project Exercises</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >03:47</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Displaying Information</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:27</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Accepting User Input</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >10:18</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Validating User Input</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >18:39</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Simple User Interaction</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >14:20</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >First Python Milestone Project Overview</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >15:38</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Milestone Project Help</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >02:59</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Solution Overview for MileStone Project 1 -
-                                Part One</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >16:01</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Solution Overview for MileStone Project 1 -
-                                Part Two</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >13:04</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--42"
@@ -4699,21 +1096,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--42"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--43"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Object Oriented Programming</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -4731,404 +1128,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--43"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming -
-                                Introduction</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >04:52</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Attributes and
-                                Class Keyword</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >14:19</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Class Object
-                                Attributes and Methods</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >17:18</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Inheritance and
-                                Polymorphism</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >16:45</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Special
-                                (Magic/Dunder) Methods</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:01</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Homework</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >03:07</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Homework
-                                Solutions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >06:51</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Challenge
-                                Overview</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:14</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Object Oriented Programming - Challenge
-                                Solution</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:22</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--44"
@@ -5137,21 +1139,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--44"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--45"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Modules and Packages</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -5169,151 +1171,9 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--45"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Pip Install and PyPi</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >07:46</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Modules and Packages</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:39</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >__name__ and "__main__"</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >09:45</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
             <div
-              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj"
+              class="accordion-panel-module--panel--Eb0it section--panel--qYPjj panel"
             >
               <span
                 id="u62-accordion-panel--46"
@@ -5322,21 +1182,21 @@
                 style="display: none"
               ></span>
               <div
-                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc"
+                class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-accordion-panel-toggler accordion-panel-module--panel-toggler--WUiNu accordion-panel-module--outer-panel-toggler--Pxwxc py-6 px-10 flex items-start justify-between outer-panel-toggler"
                 data-css-toggle-id="u62-accordion-panel--46"
               >
                 <h3
-                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI"
+                  class="ud-accordion-panel-heading section--section-title-container--Hd9vI  flex-1 ml-4"
                 >
                   <button
                     type="button"
                     aria-disabled="false"
                     aria-expanded="false"
-                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu"
+                    class="ud-btn ud-btn-large ud-btn-link ud-heading-md js-panel-toggler accordion-panel-module--panel-toggler--WUiNu  w-full block panel-toggler"
                     id="u62-accordion-panel-title--47"
                   >
-                    <span class="ud-accordion-panel-title"
-                      ><span class="section--section-title--svpHP"
+                    <span class="ud-accordion-panel-title flex flex-1"
+                      ><span class="section--section-title--svpHP flex-1"
                         >Errors and Exceptions Handling</span
                       ><span
                         class="ud-text-sm section--hidden-on-mobile---ITMr section--section-content--2mUJ7"
@@ -5354,286 +1214,28 @@
                   <use xlink:href="#icon-expand"></use>
                 </svg>
               </div>
-              <div
-                class="accordion-panel-module--content-wrapper--TkHqe"
-                aria-labelledby="u62-accordion-panel-title--47"
-                aria-hidden="true"
-                role="group"
-              >
-                <div
-                  class="ud-accordion-panel-content accordion-panel-module--content--0dD7R"
-                >
-                  <ul class="ud-unstyled-list ud-block-list">
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Errors and Exception Handling</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >17:19</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Errors and Exceptions Homework</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >01:30</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Errors and Exception Homework - Solutions</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >05:16</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-article"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Update for Pylint Users</span
-                              >
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >00:20</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Pylint Overview</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >11:36</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div
-                        class="ud-block-list-item ud-block-list-item-small ud-block-list-item-neutral ud-text-sm"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon"
-                        >
-                          <use xlink:href="#icon-video"></use>
-                        </svg>
-                        <div class="ud-block-list-item-content">
-                          <div>
-                            <div class="section--row--MuPRa">
-                              <span class="section--item-title--EWIuI"
-                                >Running tests with the Unittest Library</span
-                              ><button
-                                type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE"
-                                aria-expanded="false"
-                              >
-                                <svg
-                                  aria-label="显示讲座说明"
-                                  role="img"
-                                  focusable="false"
-                                  class="ud-icon ud-icon-small ud-icon-color-neutral"
-                                >
-                                  <use xlink:href="#icon-expand"></use>
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
-                          <span
-                            class="section--hidden-on-mobile---ITMr"
-                            style="flex: 1 1 0%"
-                          ></span
-                          ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
-                            >09:33</span
-                          >
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
           <button
             type="button"
-            class="ud-btn ud-btn-medium ud-btn-secondary ud-heading-sm curriculum--curriculum-show-more--hf-k5"
+            class="ud-btn ud-btn-medium ud-btn-secondary ud-heading-sm curriculum--curriculum-show-more--hf-k5 mt-6 w-full"
             data-purpose="show-more"
           >
             <span class="ud-btn-label">还有 13 个章节</span>
           </button>
         </div>
       </div>
-      <div class="component-margin">
+      <div class="component-margin mb-12">
         <h2
           data-purpose="requirements-title"
-          class="ud-heading-xl requirements--title--eo3-L"
+          class="ud-heading-xl requirements--title--eo3-L mb-6"
         >
           要求
         </h2>
         <ul class="ud-unstyled-list ud-block-list">
           <li>
             <div
-              class="ud-block-list-item ud-block-list-item-small ud-block-list-item-tight ud-block-list-item-neutral ud-text-sm"
+              class="ud-block-list-item ud-block-list-item-small ud-block-list-item-tight ud-block-list-item-neutral ud-text-sm color-text-default"
             >
               <svg
                 aria-hidden="true"
@@ -5649,13 +1251,10 @@
           </li>
         </ul>
       </div>
-      <div
-        class="ud-text-sm component-margin styles--description--AfVWV"
-        data-purpose="course-description"
-      >
+      <div class="ud-text-sm component-margin styles--description--AfVWV mb-12">
         <h2
           data-purpose="description-title"
-          class="ud-heading-xl styles--description__header--kcQ3V"
+          class="ud-heading-xl styles--description__header--kcQ3V mb-6"
         >
           描述
         </h2>
@@ -5667,7 +1266,7 @@
             style="display: none"
           ></span>
           <div
-            class="show-more-module--content--Rw-xr show-more-module--with-gradient--f4HoJ"
+            class="show-more-module--content--Rw-xr show-more-module--with-gradient--f4HoJ show-more-bg overflow-hidden	"
             style="max-height: 22.1rem"
           >
             <div tabindex="-1">
@@ -5789,7 +1388,7 @@
           >
             <span
               ><span class="show-more-module--show-more--ObEu7">显示更多</span
-              ><span class="show-more-module--show-less--jkOoQ"
+              ><span class="show-more-module--show-less--jkOoQ hidden"
                 >显示更少</span
               ></span
             ><svg
@@ -5801,7 +1400,7 @@
             ><svg
               aria-hidden="true"
               focusable="false"
-              class="ud-icon ud-icon-xsmall show-more-module--show-less--jkOoQ"
+              class="ud-icon ud-icon-xsmall show-more-module--show-less--jkOoQ hidden"
             >
               <use xlink:href="#icon-collapse"></use>
             </svg>
@@ -5809,13 +1408,13 @@
         </div>
       </div>
       <div
-        class="component-margin ud-text-sm featured-review--background-wrapper--91BBi"
+        class="component-margin ud-text-sm featured-review--background-wrapper--91BBi background-wrapper"
       >
-        <h2 class="ud-heading-xl featured-review--unit-title--agl9K">
+        <h2 class="ud-heading-xl featured-review--unit-title--agl9K mb-6">
           精选评论
         </h2>
-        <div class="featured-review--reviewer--LbE9L">
-          <a class="instructor--instructor__image-link--wVlJ7"
+        <div class="featured-review--reviewer--LbE9L flex">
+          <a class="instructor--instructor__image-link--wVlJ7 mr-4"
             ><img
               src="https://img-c.udemycdn.com/user/200_H/101610246_6b5d_3.jpg"
               alt="Ken K."
@@ -5841,7 +1440,7 @@
             <div class="featured-review--reviewer-stat--Ik1fo">2 条评论</div>
           </div>
         </div>
-        <div class="featured-review--rating-container--l-0OU">
+        <div class="featured-review--rating-container--l-0OU flex my-4">
           <span
             class="star-rating-module--star-wrapper--i1cJH star-rating-module--large--OJtSv"
             ><span class="ud-sr-only">评分：5.0，满分 5 分</span
@@ -5852,6 +1451,7 @@
               viewBox="0 0 70 14"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              class="w-40"
             >
               <mask
                 id="u63-star-rating-mask--8"
@@ -5866,7 +1466,7 @@
                 ></rect>
               </mask>
               <g
-                class="star-rating-module--star-filled--FgjdR"
+                class="star-rating-module--star-filled--FgjdR star-filled"
                 mask="url(#u63-star-rating-mask--8)"
                 data-purpose="star-filled"
               >

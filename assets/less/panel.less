@@ -1,0 +1,42 @@
+@import (reference) './tokens.global.less';
+
+.panel {
+  border-top: 1px solid #d1d7dc;
+  border-left: @border-default;
+  border-right: @border-default;
+}
+
+.panel:last-child {
+  border-bottom: 1px solid #d1d7dc;
+}
+
+.panel-toggler {
+  color: #2d2f31 !important;
+  display: block;
+  text-align: left;
+  white-space: normal;
+  width: 100%;
+}
+
+.panel .ud-accordion-panel-toggler {
+  background-color: @color-gray-100;
+  flex-direction: row-reverse;
+  // padding: @space-sm;
+}
+
+.panel span[data-checked='checked'] ~ .outer-panel-toggler .expand-icon {
+  transform: rotate(-180deg);
+}
+
+@media (min-width: @viewport-sm-min) {
+  .panel .toggle-item-description-button {
+    // Override Button.
+    margin-left: @space-xs;
+    background-color: @background-color-pale;
+    color: @color-text-default;
+    height: unit(24 * @px-to-rem, rem);
+    width: unit(24 * @px-to-rem, rem);
+    transform: translateY(unit(-2 * @px-to-rem, rem));
+    min-width: 0;
+  }
+}
