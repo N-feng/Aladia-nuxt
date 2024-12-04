@@ -2,7 +2,7 @@
   <div id="app">
     <AppHeader />
     <AppContent />
-    <post-list></post-list>
+    <!-- <post-list></post-list> -->
     <Svg />
   </div>
 </template>
@@ -45,4 +45,5 @@ export default {
 @import url("./assets/less/list.less");
 @import url("./assets/less/border.less");
 @import url("./assets/less/panel.less");
+@import url("./assets/less/flex.less");
 </style>

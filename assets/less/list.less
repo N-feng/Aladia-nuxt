@@ -11,3 +11,22 @@
 .ud-block-list-item-icon + .ud-block-list-item-content {
   margin-left: 1.6rem;
 }
+
+.content-container > *:not(:last-child) {
+  border-bottom: 1px solid #d1d7dc;
+}
+
+.ribbon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  white-space: nowrap;
+  background-color: var(--ribbon-background-color);
+  color: var(--ribbon-color);
+}
+
+.course-comparison-module--meta-items--3RWu- > :not(:last-child)::after {
+  content: "●";
+  font-size: 0.3rem;
+  margin: 0px 0.4rem;
+}

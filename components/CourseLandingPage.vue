@@ -1408,7 +1408,7 @@
         </div>
       </div>
       <div
-        class="component-margin ud-text-sm featured-review--background-wrapper--91BBi background-wrapper"
+        class="component-margin ud-text-sm featured-review--background-wrapper--91BBi background-wrapper mb-10"
       >
         <h2 class="ud-heading-xl featured-review--unit-title--agl9K mb-6">
           精选评论
@@ -1567,21 +1567,21 @@
             </div>
           </div>
         </div>
-        <div class="featured-review--review-feedback--84TP5">
+        <div class="featured-review--review-feedback--84TP5 mt-10">
           <p
             role="status"
             aria-live="polite"
-            class="review-feedback--review-feedback__title--xszO-"
+            class="review-feedback--review-feedback__title--xszO- text-xl	"
             data-purpose="helpfulness-prompt"
           >
             此评论是否有用？
           </p>
-          <div class="review-feedback--review-feedback__actions--3SyaX">
+          <div class="review-feedback--review-feedback__actions--3SyaX mt-4">
             <button
               type="button"
               data-purpose="helpful-button-yes"
               value="yes"
-              class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round review-feedback--review-feedback__actions-thumb_up--s4mH8"
+              class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round review-feedback--review-feedback__actions-thumb_up--s4mH8 mr-4"
             >
               <svg
                 aria-label="标记为有帮助"
@@ -1596,7 +1596,7 @@
               type="button"
               data-purpose="helpful-button-no"
               value="no"
-              class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round review-feedback--review-feedback__actions-thumb_down--EEvrn"
+              class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round review-feedback--review-feedback__actions-thumb_down--EEvrn mr-6"
             >
               <svg
                 aria-label="标记为没有帮助"
@@ -1612,7 +1612,7 @@
               class="ud-btn ud-btn-medium ud-btn-ghost ud-heading-sm ud-text-sm review-feedback--review-report-abuse--AT1ky"
               data-purpose="report-abuse-link"
             >
-              <span class="ud-btn-label">举报</span>
+              <span class="ud-btn-label underline color-text-default">举报</span>
             </button>
           </div>
         </div>
@@ -1634,28 +1634,28 @@
           >
             <div tabindex="-1">
               <div
-                class="course-comparison-module--content-container--mt-Om"
+                class="course-comparison-module--content-container--mt-Om content-container"
                 data-purpose="show-more-content-container"
               >
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/100-days-of-code/"
                         target="_blank"
                         rel="noopener"
                         >100 Days of Code: The Complete Python Pro Bootcamp</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
-                          class="course-comparison-module--course-badges--lkggs"
+                          class="course-comparison-module--course-badges--lkggs mr-4"
                         >
                           <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
+                            class="ribbon-module--ribbon--vVul- ud-heading-xs ribbon"
                             style="
                               --ribbon-background-color: var(
                                 --color-yellow-200
@@ -1667,20 +1667,20 @@
                           </div>
                         </div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green items-center"
                             >总共 56.5 小时</span
                           ><span>更新日期 2024/11</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.7，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -1694,6 +1694,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--126"
@@ -1708,7 +1709,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--126)"
                             data-purpose="star-filled"
                           >
@@ -1734,7 +1735,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -1742,7 +1743,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >1,446,581</span
                         ></span
                       >
@@ -1770,7 +1771,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/2776760_f176_10.jpg"
                         srcset="
@@ -1795,7 +1796,7 @@
                     ></a>
                     <div
                       data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
+                      class="course-comparison-module--wishlist-content--W2nQI ml-6"
                     >
                       <div>
                         <button
@@ -1824,36 +1825,36 @@
                 </div>
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/complete-python-developer-zero-to-mastery/"
                         target="_blank"
                         rel="noopener"
                         >The Complete Python Developer</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
                           class="course-comparison-module--course-badges--lkggs"
                         ></div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green items-center"
                             >总共 31 小时</span
                           ><span>更新日期 2024/10</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.6，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -1867,6 +1868,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--127"
@@ -1881,7 +1883,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--127)"
                             data-purpose="star-filled"
                           >
@@ -1907,7 +1909,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -1915,7 +1917,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >224,592</span
                         ></span
                       >
@@ -1943,7 +1945,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/2473048_8255_5.jpg"
                         srcset="
@@ -1997,36 +1999,36 @@
                 </div>
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/python-the-complete-python-developer-course/"
                         target="_blank"
                         rel="noopener"
                         >Learn Python Programming Masterclass</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
                           class="course-comparison-module--course-badges--lkggs"
                         ></div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green"
                             >总共 61.5 小时</span
                           ><span>更新日期 2024/11</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.6，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -2040,6 +2042,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--128"
@@ -2054,7 +2057,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--128)"
                             data-purpose="star-filled"
                           >
@@ -2080,7 +2083,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -2088,7 +2091,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >430,779</span
                         ></span
                       >
@@ -2116,7 +2119,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/629302_8a2d_2.jpg"
                         srcset="
@@ -2170,36 +2173,36 @@
                 </div>
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/learn-python-with-abdul-bari/"
                         target="_blank"
                         rel="noopener"
                         >Learn Python Programming - Beginner to Master</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
                           class="course-comparison-module--course-badges--lkggs"
                         ></div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green"
                             >总共 57 小时</span
                           ><span>更新日期 2024/9</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.6，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -2213,6 +2216,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--129"
@@ -2227,7 +2231,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--129)"
                             data-purpose="star-filled"
                           >
@@ -2253,7 +2257,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -2261,7 +2265,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >32,191</span
                         ></span
                       >
@@ -2289,7 +2293,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/4398404_2f8f_2.jpg"
                         srcset="
@@ -2343,36 +2347,36 @@
                 </div>
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/automate/"
                         target="_blank"
                         rel="noopener"
                         >Automate the Boring Stuff with Python Programming</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
                           class="course-comparison-module--course-badges--lkggs"
                         ></div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green"
                             >总共 9.5 小时</span
                           ><span>更新日期 2023/2</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.6，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -2386,6 +2390,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--130"
@@ -2400,7 +2405,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--130)"
                             data-purpose="star-filled"
                           >
@@ -2426,7 +2431,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -2434,7 +2439,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >1,136,562</span
                         ></span
                       >
@@ -2462,7 +2467,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/543600_64d1_4.jpg"
                         srcset="
@@ -2516,37 +2521,37 @@
                 </div>
                 <div>
                   <div
-                    class="course-comparison-module--course-container--6e7jU"
+                    class="course-comparison-module--course-container--6e7jU flex flex-row py-6"
                     data-purpose="course-container"
                   >
-                    <div class="course-comparison-module--main-content--ylR3v">
+                    <div class="course-comparison-module--main-content--ylR3v ml-4 max-w-72 flex-4 flex flex-col">
                       <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
+                        class="ud-heading-md course-comparison-module--course-title--bShIy course-title"
                         href="/course/the-python-mega-course/"
                         target="_blank"
                         rel="noopener"
                         >Python Mega Course: Learn Python in 60 Days, Build 20
                         Apps</a
                       >
-                      <div class="course-comparison-module--course-info--aiTYa">
+                      <div class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap">
                         <div
                           class="course-comparison-module--course-badges--lkggs"
                         ></div>
                         <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
+                          class="ud-text-sm course-comparison-module--meta-items--3RWu- flex  items-center"
                         >
                           <span
-                            class="course-comparison-module--content-info--yGAHR"
+                            class="course-comparison-module--content-info--yGAHR color-green"
                             >总共 53 小时</span
                           ><span>更新日期 2024/11</span>
                         </div>
                       </div>
                     </div>
                     <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
+                      class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10"
                     >
                       <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
+                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
                         ><span class="ud-sr-only">评分：4.7，满分 5 分</span
                         ><span
                           class="ud-heading-sm star-rating-module--rating-number--2-qA2"
@@ -2560,6 +2565,7 @@
                           viewBox="0 0 14 14"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
+                          class="w-6 h-6"
                         >
                           <mask
                             id="u62-star-rating-mask--131"
@@ -2574,7 +2580,7 @@
                             ></rect>
                           </mask>
                           <g
-                            class="star-rating-module--star-filled--FgjdR"
+                            class="star-rating-module--star-filled--FgjdR star-filled"
                             mask="url(#u62-star-rating-mask--131)"
                             data-purpose="star-filled"
                           >
@@ -2600,7 +2606,7 @@
                             ></use>
                           </g></svg></span
                       ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
+                        class="ud-text-sm course-comparison-module--num-students--A0Orl flex items-center"
                         ><svg
                           aria-hidden="true"
                           focusable="false"
@@ -2608,7 +2614,7 @@
                         >
                           <use xlink:href="#icon-people"></use></svg
                         ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
+                          class="course-comparison-module--num-students-text--jDRaj ml-2"
                           >333,963</span
                         ></span
                       >
@@ -2636,7 +2642,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
+                    <div class="course-comparison-module--image-wrapper---Atz- image-wrapper">
                       <img
                         src="https://img-c.udemycdn.com/course/50x50/692188_9da7_34.jpg"
                         srcset="
@@ -2688,2194 +2694,13 @@
                     </div>
                   </div>
                 </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/python-for-data-science-and-machine-learning-bootcamp/"
-                        target="_blank"
-                        rel="noopener"
-                        >Python for Data Science and Machine Learning
-                        Bootcamp</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        ></div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 25 小时</span
-                          ><span>更新日期 2020/5</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--132"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--132)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >742,532</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$17.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$109.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/903744_8eb2.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/903744_8eb2.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/903744_8eb2.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/python-for-data-science-and-machine-learning-bootcamp/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/the-data-science-course-complete-data-science-bootcamp/"
-                        target="_blank"
-                        rel="noopener"
-                        >The Data Science Course: Complete Data Science Bootcamp
-                        2024</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 31.5 小时</span
-                          ><span>更新日期 2024/11</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--133"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--133)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >726,736</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$17.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$109.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/1754098_e0df_3.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/1754098_e0df_3.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/1754098_e0df_3.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/the-data-science-course-complete-data-science-bootcamp/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/complete-machine-learning-nlp-bootcamp-mlops-deployment/"
-                        target="_blank"
-                        rel="noopener"
-                        >Complete Data Science,Machine Learning,DL,NLP
-                        Bootcamp</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 91.5 小时</span
-                          ><span>更新日期 2024/10</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--134"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--134)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >44,653</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$11.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$64.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/5993822_2c2a_7.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/5993822_2c2a_7.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/5993822_2c2a_7.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/complete-machine-learning-nlp-bootcamp-mlops-deployment/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/machinelearning/"
-                        target="_blank"
-                        rel="noopener"
-                        >Machine Learning A-Z: AI, Python &amp; R + ChatGPT
-                        Prize [2024]</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 43 小时</span
-                          ><span>更新日期 2024/11</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.5，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.5</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--135"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--135)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >1,100,935</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$22.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$139.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/950390_270f_3.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/950390_270f_3.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/950390_270f_3.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/machinelearning/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/complete-machine-learning-and-data-science-zero-to-mastery/"
-                        target="_blank"
-                        rel="noopener"
-                        >Complete A.I. &amp; Machine Learning, Data Science
-                        Bootcamp</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        ></div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 44 小时</span
-                          ><span>更新日期 2024/10</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--136"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--136)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >134,388</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$15.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$99.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/2511476_4e38_5.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/2511476_4e38_5.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/2511476_4e38_5.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/complete-machine-learning-and-data-science-zero-to-mastery/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/artificial-intelligence-az/"
-                        target="_blank"
-                        rel="noopener"
-                        >Artificial Intelligence A-Z 2024: Build 7 AI + LLM
-                        &amp; ChatGPT</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 15.5 小时</span
-                          ><span>更新日期 2024/11</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.5，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.5</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--137"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--137)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >298,841</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$18.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$109.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/1219332_bdd7.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/1219332_bdd7.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/1219332_bdd7.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/artificial-intelligence-az/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/the-data-analyst-course-complete-data-analyst-bootcamp/"
-                        target="_blank"
-                        rel="noopener"
-                        >The Data Analyst Course: Complete Data Analyst
-                        Bootcamp</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 21 小时</span
-                          ><span>更新日期 2024/11</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.5，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.5</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--138"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--138)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >139,499</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$15.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$99.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/3570337_9b02_6.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/3570337_9b02_6.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/3570337_9b02_6.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/the-data-analyst-course-complete-data-analyst-bootcamp/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/data-science-and-machine-learning-with-python-hands-on/"
-                        target="_blank"
-                        rel="noopener"
-                        >Machine Learning, Data Science and Generative AI with
-                        Python</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        ></div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 20.5 小时</span
-                          ><span>更新日期 2024/8</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--139"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--139)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >219,501</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$22.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$139.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/671576_a272_4.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/671576_a272_4.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/671576_a272_4.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/data-science-and-machine-learning-with-python-hands-on/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/data-structures-algorithms-python/"
-                        target="_blank"
-                        rel="noopener"
-                        >Python Data Structures &amp; Algorithms + LEETCODE
-                        Exercises</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 9.5 小时</span
-                          ><span>更新日期 2024/3</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.7，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.7</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--140"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--140)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >74,000</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$11.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$74.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/4094340_0609_17.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/4094340_0609_17.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/4094340_0609_17.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/data-structures-algorithms-python/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/python-for-machine-learning-data-science-masterclass/"
-                        target="_blank"
-                        rel="noopener"
-                        >Python for Machine Learning &amp; Data Science
-                        Masterclass</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        ></div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 44 小时</span
-                          ><span>更新日期 2021/9</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.7，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.7</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--141"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--141)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >116,385</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$14.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$89.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/2769460_e60c.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/2769460_e60c.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/2769460_e60c.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/python-for-machine-learning-data-science-masterclass/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/the-complete-web-development-bootcamp/"
-                        target="_blank"
-                        rel="noopener"
-                        >The Complete 2024 Web Development Bootcamp</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 61.5 小时</span
-                          ><span>更新日期 2024/8</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.7，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.7</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--142"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--142)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >1,380,545</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$14.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$89.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/1565838_e54e_18.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/1565838_e54e_18.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/1565838_e54e_18.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/the-complete-web-development-bootcamp/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="course-comparison-module--course-container--6e7jU"
-                    data-purpose="course-container"
-                  >
-                    <div class="course-comparison-module--main-content--ylR3v">
-                      <a
-                        class="ud-heading-md course-comparison-module--course-title--bShIy"
-                        href="/course/microsoft-power-bi-up-running-with-power-bi-desktop/"
-                        target="_blank"
-                        rel="noopener"
-                        >Microsoft Power BI Desktop for Business Intelligence</a
-                      >
-                      <div class="course-comparison-module--course-info--aiTYa">
-                        <div
-                          class="course-comparison-module--course-badges--lkggs"
-                        >
-                          <div
-                            class="ribbon-module--ribbon--vVul- ud-heading-xs"
-                            style="
-                              --ribbon-background-color: var(
-                                --color-yellow-200
-                              );
-                              --ribbon-color: var(--color-yellow-500);
-                            "
-                          >
-                            热门课程
-                          </div>
-                        </div>
-                        <div
-                          class="ud-text-sm course-comparison-module--meta-items--3RWu-"
-                        >
-                          <span
-                            class="course-comparison-module--content-info--yGAHR"
-                            >总共 16.5 小时</span
-                          ><span>更新日期 2024/11</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="course-comparison-module--comparison-content--nMZ6i"
-                    >
-                      <span
-                        class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU"
-                        ><span class="ud-sr-only">评分：4.6，满分 5 分</span
-                        ><span
-                          class="ud-heading-sm star-rating-module--rating-number--2-qA2"
-                          aria-hidden="true"
-                          data-purpose="rating-number"
-                          >4.6</span
-                        ><svg
-                          aria-hidden="true"
-                          width="100%"
-                          height="100%"
-                          viewBox="0 0 14 14"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <mask
-                            id="u62-star-rating-mask--143"
-                            data-purpose="star-rating-mask"
-                          >
-                            <rect
-                              x="0"
-                              y="0"
-                              width="100%"
-                              height="100%"
-                              fill="white"
-                            ></rect>
-                          </mask>
-                          <g
-                            class="star-rating-module--star-filled--FgjdR"
-                            mask="url(#u62-star-rating-mask--143)"
-                            data-purpose="star-filled"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="14"
-                              height="14"
-                              x="0"
-                            ></use>
-                          </g>
-                          <g
-                            fill="transparent"
-                            class="star-rating-module--star-bordered--A4SZK"
-                            stroke-width="2"
-                            data-purpose="star-bordered"
-                          >
-                            <use
-                              xlink:href="#icon-rating-star"
-                              width="12"
-                              height="12"
-                              x="1"
-                              y="1"
-                            ></use>
-                          </g></svg></span
-                      ><span
-                        class="ud-text-sm course-comparison-module--num-students--A0Orl"
-                        ><svg
-                          aria-hidden="true"
-                          focusable="false"
-                          class="ud-icon ud-icon-xsmall ud-icon-color-neutral"
-                        >
-                          <use xlink:href="#icon-people"></use></svg
-                        ><span
-                          class="course-comparison-module--num-students-text--jDRaj"
-                          >591,558</span
-                        ></span
-                      >
-                      <div
-                        class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
-                        data-purpose="price-text-container"
-                      >
-                        <div
-                          class="base-price-text-module--price-part---xQlz ud-heading-sm course-comparison-module--discount-price--zwCW1"
-                          data-purpose="course-price-text"
-                        >
-                          <span class="ud-sr-only">当前价格</span
-                          ><span><span>US$16.99</span></span>
-                        </div>
-                        <div
-                          class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-text-xs course-comparison-module--list-price--kfEXA"
-                          data-purpose="original-price-container"
-                        >
-                          <div data-purpose="course-old-price-text">
-                            <span class="ud-sr-only">原价</span
-                            ><span
-                              ><s><span>US$109.99</span></s></span
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="course-comparison-module--image-wrapper---Atz-">
-                      <img
-                        src="https://img-c.udemycdn.com/course/50x50/1570206_26c6_6.jpg"
-                        srcset="
-                          https://img-c.udemycdn.com/course/50x50/1570206_26c6_6.jpg   1x,
-                          https://img-c.udemycdn.com/course/100x100/1570206_26c6_6.jpg 2x
-                        "
-                        alt=""
-                        width="64"
-                        height="64"
-                        class="course-comparison-module--course-image--uMGqi"
-                        loading="lazy"
-                      />
-                    </div>
-                    <a
-                      class="course-comparison-module--whole-card-link--BATxF"
-                      data-purpose="card-link"
-                      href="/course/microsoft-power-bi-up-running-with-power-bi-desktop/"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      target="_blank"
-                      rel="noopener"
-                    ></a>
-                    <div
-                      data-purpose="wishlist-container"
-                      class="course-comparison-module--wishlist-content--W2nQI"
-                    >
-                      <div>
-                        <button
-                          type="button"
-                          aria-pressed="false"
-                          aria-label="心愿单"
-                          class="ud-btn ud-btn-medium ud-btn-secondary ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-medium ud-btn-icon-round"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="ud-icon ud-icon-small"
-                            style="
-                              fill: transparent;
-                              padding: 1px;
-                              stroke: currentcolor;
-                              stroke-width: 2;
-                            "
-                          >
-                            <use xlink:href="#icon-wishlisted"></use>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div></div>
               </div>
             </div>
           </div>
           <button
             type="button"
-            class="ud-btn ud-btn-medium ud-btn-secondary ud-heading-sm show-more-module--focusable-label--ucIIp show-more-module--full-width--Gm3QQ"
+            class="ud-btn ud-btn-medium ud-btn-secondary ud-heading-sm show-more-module--focusable-label--ucIIp show-more-module--full-width--Gm3QQ w-full"
             aria-label="显示更多"
             data-css-toggle-id="u62-show-more--125"
           >
@@ -4888,7 +2713,7 @@
           </button>
         </div>
       </div>
-      <div class="component-margin">
+      <div class="component-margin hidden">
         <div data-client-side-render-only="CSR: recommendations">
           <div data-purpose="bundle-wrapper">
             <div
@@ -5677,7 +3502,7 @@
           </div>
         </div>
       </div>
-      <div class="component-margin styles--instructors--RDaA9">
+      <div class="component-margin styles--instructors--RDaA9 hidden">
         <span id="instructor" class="in-page-offset-anchor"></span>
         <h2 class="ud-heading-xl styles--instructors__header--RUHJr">讲师</h2>
         <div
@@ -5960,8 +3785,8 @@
           </div>
         </div>
       </div>
-      <span id="reviews" class="in-page-offset-anchor"></span>
-      <div data-purpose="reviews" class="component-margin">
+      <span id="reviews" class="in-page-offset-anchor hidden"></span>
+      <div data-purpose="reviews" class="component-margin hidden">
         <span id="reviews"></span>
         <div
           class="review-title--review-title--Ln2rt reviews--reviews-title--0o8fR"
@@ -6893,7 +4718,7 @@
           <span class="ud-btn-label">显示所有评论</span>
         </button>
       </div>
-      <div class="component-margin">
+      <div class="component-margin hidden">
         <div data-purpose="more-from-instructors-app">
           <div class="styles--more-from-instructor--Ck3VZ">
             <h2
@@ -8428,7 +6253,7 @@
           </div>
         </div>
       </div>
-      <div class="component-margin component-border">
+      <div class="component-margin component-border hidden">
         <div class="report-abuse--report-abuse-full-width---jbU4">
           <button
             type="button"
