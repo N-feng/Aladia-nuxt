@@ -34,4 +34,12 @@ export default {
 @import url("./assets/less/caption.less");
 @import url("./assets/less/discount-expiration.less");
 @import url("./assets/less/buy-box.less");
+@import url("./assets/less/money-back-guarantee.global.less");
+@import url("./assets/less/money-back-guarantee.less");
+@import url("./assets/less/purchase-team-tabs.less");
+@import url("./assets/less/margin.less");
+@import url("./assets/less/font.less");
+@import url("./assets/less/color.less");
+@import url("./assets/less/layout.less");
+@import url("./assets/less/purchase-section-container.less");
 </style>

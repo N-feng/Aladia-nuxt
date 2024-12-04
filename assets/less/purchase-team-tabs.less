@@ -1,0 +1,55 @@
+@import (reference) './tokens.global.less';
+// @import (reference) '~course-landing-page/tokens.less';
+
+.purchase-team-tabs {
+    margin-top: -@space-md;
+
+    @media (max-width: @breakpoint-paid-clp-md-max) {
+        margin-top: -@space-sm;
+    }
+
+    // :global {
+        .ud-tabs-nav-buttons {
+            margin-left: -@space-md;
+            // On desktop, it takes the width of the sidebar
+            width: @paid-clp-sidebar-width;
+
+            // And on mobile it fills the container
+            @media (max-width: @viewport-sm-max) {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            // And on tablet, it should take the width of the container.
+            @media (min-width: @viewport-md-min) and (max-width: @breakpoint-paid-clp-md-max) {
+                margin-left: 0;
+                width: @paid-clp-main-width;
+            }
+        }
+    // }
+}
+
+.ufb-tab {
+    .logo {
+        margin: @space-xs 0;
+    }
+}
+
+.subs-diff-text {
+    margin-bottom: @space-xs;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: @space-xs;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: @space-sm 0;
+
+    > a + a {
+        margin-top: @space-sm;
+    }
+}

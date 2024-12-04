@@ -19,6 +19,9 @@ export default defineNuxtConfig({
     '~/assets/css/play-overlay.global.css',
     '~/assets/css/star-rating.css',
     '~/assets/css/base-price-text.css',
+    '@/assets/css/tailwind.css',
+    '~/assets/css/tabs.css',
+    '~/assets/css/subscription-cta.css',
   ],
   hooks: {
     'build:manifest': (manifest) => {
@@ -36,7 +39,10 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       'postcss-nested': {},
-      'postcss-custom-media': {}
+      'postcss-custom-media': {},
+      'tailwindcss/nesting': {},
+      tailwindcss: {},
+      autoprefixer: {}
     }
   },
   // modules: ['@nuxtjs/tailwindcss'],

@@ -1,0 +1,52 @@
+@import (reference) './tokens.global.less';
+
+.gap {
+  gap: @space-xs;
+}
+
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid @border-color-default;
+}
+
+.codes {
+  color: @color-gray-300;
+  margin-bottom: @space-xs;
+
+  > div {
+      border: 1px dashed @border-color-default;
+      display: flex;
+      align-items: center;
+  }
+}
+
+.code {
+  margin-top: @space-xs;
+
+  .code-icon-button {
+      height: unit(48*@px-to-rem, rem);
+  }
+
+  .code-text {
+      font-size: @font-size-sm;
+      float: left;
+      height: unit(48*@px-to-rem, rem);
+      width: 100%;
+      align-items: center;
+      display: flex;
+
+      > ul {
+          list-style: none;
+          padding-left: inherit;
+          font-size: @font-size-xs;
+          > li b {
+              font-size: @font-size-sm;
+          }
+          & > * + * {
+              margin-top: 0;
+          }
+      }
+  }
+
+}
