@@ -678,7 +678,7 @@
         </div>
       </div>
       <div
-        class="course-landing-page_slider-menu-container sidebar-container--fixed--1Gxn0"
+        class="course-landing-page_slider-menu-container sidebar-container--fixed--1Gxn0 hidden"
         data-purpose="slider-menu-container"
       >
         <span class="slider-menu--mark--fWNpb"></span>

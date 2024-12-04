@@ -2,6 +2,17 @@
 @import (reference) './tokens.global.less';
 // @import (reference) './tokens.less';
 
+@paid-clp-max-width-lg: 118.4rem;
+
+.clp-container-margins() {
+    margin: 0 auto;
+    max-width: @paid-clp-max-width;
+
+    @media screen and (min-width: @breakpoint-paid-clp-xl-min) {
+        max-width: @paid-clp-max-width-lg;
+    }
+}
+
 @viewport-md-min: 43.8125rem;
 @breakpoint-paid-clp-md-max: 67.44em;
 
@@ -52,6 +63,13 @@
             .ud-icon {
                 color: @color-white;
             }
+        }
+    }
+
+    .paid-course-landing-page__body {
+        .clp-container-margins();
+        @media screen and (min-width: @viewport-sm-min) {
+            padding-top: @space-lg;
         }
     }
 
