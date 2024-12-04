@@ -1,0 +1,49 @@
+.star-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.star-wrapper.large > svg {
+  width: 10rem;
+  height: 2rem;
+}
+.star-wrapper.large.numeric > svg {
+  width: 2rem;
+}
+.star-wrapper.large .rating-number {
+  line-height: 1;
+}
+.star-wrapper.medium > svg {
+  display: block;
+  width: 7rem;
+  height: 1.6rem;
+}
+.star-wrapper.medium.numeric > svg {
+  width: 1.6rem;
+}
+.star-wrapper.small > svg {
+  display: block;
+  width: 6.1rem;
+  height: 1.4rem;
+}
+.star-wrapper.small.numeric > svg {
+  width: 1.4rem;
+}
+.star-filled {
+  fill: #b4690e;
+}
+.dark-background .star-filled {
+  fill: #f69c08;
+}
+.star-bordered {
+  stroke: #b4690e;
+}
+.dark-background .star-bordered {
+  stroke: #f69c08;
+}
+.rating-number-1 {
+  margin-right: 0.4rem;
+  color: #4d3105;
+}
+.dark-background .rating-number {
+  color: #f69c08;
+}

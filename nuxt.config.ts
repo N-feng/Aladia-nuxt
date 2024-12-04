@@ -16,6 +16,8 @@ export default defineNuxtConfig({
     '~/assets/css/desktop-header.css',
     '~/assets/css/search-form-autocomplete.global.css',
     '~/assets/css/text-input.global.css',
+    '~/assets/css/play-overlay.global.css',
+    '~/assets/css/star-rating.css',
   ],
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
   shadcn: {

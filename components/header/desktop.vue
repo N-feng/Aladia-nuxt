@@ -1,8 +1,6 @@
 <template>
-  <header class="ud-header ud-text-sm header flex-middle" >
-    <a
-      href="/"
-      class="desktop-header-module--flex-middle--k0Teb logo"
+  <header class="ud-header ud-text-sm header flex-middle">
+    <a href="/" class="desktop-header-module--flex-middle--k0Teb logo"
       ><img
         src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
         alt="Udemy"
@@ -10,10 +8,7 @@
         height="34"
         loading="lazy"
     /></a>
-    <nav
-      class="popper gap-button"
-      aria-label="分类"
-    >
+    <nav class="popper gap-button" aria-label="分类">
       <button
         type="button"
         id="u62-popper-trigger--2"
@@ -45,7 +40,7 @@
           autocomplete="off"
           value=""
           class="ud-text-input ud-text-input-small ud-text-sm ud-search-form-autocomplete-input js-header-search-field"
-          style="outline: none;"
+          style="outline: none"
         />
         <button
           type="submit"
@@ -63,9 +58,7 @@
         </button>
       </form>
     </div>
-    <div
-      class="popper-module--popper--mM5Ie gap-button desktop-header-module--group-a--N6xgx"
-    >
+    <div class="popper-module--popper--mM5Ie gap-button group-a">
       <a
         data-purpose="try-ufb-dropdown-trigger"
         href="/udemy-business/?locale=zh_CN&amp;mx_pg=httpcachecontextsme-list&amp;path=request-demo-mx%2F&amp;ref=ufb_header"
@@ -81,9 +74,7 @@
         ></a
       >
     </div>
-    <div
-      class="popper-module--popper--mM5Ie gap-button desktop-header-module--group-b--Zka1Y"
-    >
+    <div class="popper-module--popper--mM5Ie gap-button group-b">
       <a
         href="/teaching/?ref=teach_header"
         data-purpose="instructor-dropdown"

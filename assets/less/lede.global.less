@@ -1,0 +1,29 @@
+.clp-lead {
+  padding-bottom: @space-md;
+
+  .clp-lead__element-item:not(:empty) {
+    margin-bottom: @space-xs;
+
+    @media (min-width: @viewport-sm-min) {
+        margin-bottom: @space-sm;
+        margin-right: @space-xs;
+    }
+  } 
+
+  .clp-lead__element-item--row {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+
+  .clp-lead__title {
+      margin-bottom: @space-sm;
+  }
+
+  .clp-lead__headline {
+      margin-bottom: @space-sm;
+
+      // @media (min-width: @breakpoint-paid-clp-lg-min) {
+      //     margin-bottom: @space-md;
+      // }
+  }
+}
