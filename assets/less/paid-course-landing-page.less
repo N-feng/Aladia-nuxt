@@ -34,6 +34,27 @@
         // }
     }
 
+    .background-inner-position-container {
+        margin: 0 auto;
+        max-width: 108.4rem;
+    }
+
+    .dark-background-inner-text-container {
+        @media (min-width: @breakpoint-paid-clp-lg-min) {
+            color: @color-text-white;
+
+            .ud-btn-link {
+                color: @color-indigo-200;
+            }
+
+
+            .ud-block-list-item,
+            .ud-icon {
+                color: @color-white;
+            }
+        }
+    }
+
     .course-landing-page__topic-menu {
       margin-bottom: @space-xs;
     }
@@ -62,9 +83,15 @@
       .purchase-section-separator {
           margin: @space-lg 0;
       }
-  }
+    }
+
+    .sidebar-container-position-manager {
+        margin: 0 auto;
+        max-width: 108.4rem;
+    }
 
   @media (min-width: @viewport-sm-min) and (max-width: @breakpoint-paid-clp-md-max) {
+    
       .course-landing-page__topic-menu {
           margin-bottom: @space-sm;
       }
@@ -77,4 +104,61 @@
           margin-bottom: @space-md;
       }
   }
+}
+
+@media (min-width: @breakpoint-paid-clp-lg-min) {
+
+    .course-landing-page__shortcut_navigation,
+    .course-landing-page__main-content {
+        max-width: @paid-clp-main-width;
+        margin-left: @space-paid-clp-content-spacing * 2;
+        margin-right: @space-paid-clp-content-spacing * 2;
+    }
+
+    // Injecting the background color and padding for the backgrounds
+    // .clp-backgrounds(@padding: @clp-background-top-padding 0 @space-lg 0);
+    .paid-course-landing-page__container .dark-background {
+        background-color: #1c1d1f;
+        padding: 3.2rem 0 3.2rem 0;
+    }
+
+    .course-landing-page__topic-menu {
+        max-width: @paid-clp-main-width;
+        margin: 0 @space-xl @space-sm;
+
+        .topic-menu {
+            position: relative;
+            top: -@space-xs; // Align with SidebarContainer.
+        }
+
+        /**
+         * @note:: This is a temporary fix, after webpack5 upgrade, somehow overriding the a tag from the
+         * .dark-background-inner-text-container in this file stopped working.
+         *  https://github.com/udemy/website-django/blob/470e7333b0386c8689
+         * c49b38cb781be5d15a4309/static/src/udemy/js/course-landing-page/paid-course-landing-page.less#L73
+         *
+         */
+        &.dark-background-inner-text-container {
+            @media (min-width: @breakpoint-paid-clp-lg-min) {
+                a {
+                    color: @color-text-link-inverted;
+                }
+            }
+        }
+    }
+
+    .course-landing-page__introduction-asset__main {
+        display: none;
+    }
+
+    .course-landing-page__purchase-section__main {
+        display: none;
+    }
+
+    .course-landing-page_sidebar-container {
+        display: block;
+        position: absolute;
+        top: @clp-background-top-padding;
+        margin-left: @space-xl + @paid-clp-main-width + @space-xl;
+    }
 }

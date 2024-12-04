@@ -288,16 +288,16 @@
         </div>
       </div>
     </div>
-    <div class="sidebar-container-position-manager hidden">
+    <div class="sidebar-container-position-manager">
       <div
-        class="course-landing-page_sidebar-container sidebar-container--fixed--1Gxn0"
+        class="course-landing-page_sidebar-container sidebar-container--fixed--1Gxn0 hidden"
         data-purpose="sidebar-container"
       >
         <div
           class="smart-bar-spacer smart-bar-module--smart-bar-spacer--JTyvD"
           data-testid="smart-bar-spacer"
         ></div>
-        <div class="sidebar-container--content--V-bFw">
+        <div class="sidebar-container--content--V-bFw w-96">
           <div class="sidebar-container--content-group---4Fh5">
             <div class="sidebar-container--introduction-asset--CD5Yt">
               <div class="intro-asset--wrapper--yDCdR">

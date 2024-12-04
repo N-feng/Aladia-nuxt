@@ -1,4 +1,6 @@
 @color-text-default: #2d2f31;
+@color-text-white: #fff;
+@color-text-link-inverted: #c0c4fc;
 // @font-stack-text: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 @font-weight-normal: 400;
 @font-weight-bold: 700;
@@ -21,11 +23,15 @@
 @space-xs: 0.8rem;
 @space-sm: 0.8rem;
 @space-xxs: 0.4rem;
+@space-xl: 4.8rem;
 
 @space-paid-clp-content-spacing: 2.4rem;
 @breakpoint-paid-clp-md-max: 67.44em;
 @breakpoint-paid-clp-lg-min: 67.5em;
 @breakpoint-paid-clp-xl-min: 73.75em;
+
+@clp-background-top-padding: 3.2rem;
+
 
 @px-to-rem: 0.1;
 
@@ -34,7 +40,7 @@
 @viewport-sm-max: 67.44em;
 
 @border-default: 1px solid #d1d7dc;
-
+@box-shadow-100: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
 
 // @viewport-sm-min: 37.5625rem;
 // @breakpoint-paid-clp-md-max: 67.44em;
@@ -84,7 +90,7 @@
 @color-indigo-500: var(@color-blue-500);
 @color-indigo-400: var(@color-blue-400);
 @color-indigo-300: var(@color-blue-300);
-@color-indigo-200: var(@color-blue-200);
+@color-indigo-200: @color-blue-200;
 @color-indigo-100: var(@color-blue-100);
 @color-orange-500: #4d3105;
 @color-orange-450: #804d09;
