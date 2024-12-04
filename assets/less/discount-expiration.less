@@ -1,0 +1,27 @@
+@import (reference) './tokens.global.less';
+// @import (reference) '~course-landing-page/tokens.less';
+
+.discount-expiration {
+    display: flex;
+    color: @color-red-400;
+
+    .icon {
+        margin: unit(1*@px-to-rem, rem) @space-xxs 0 0;
+
+        .paid-course-landing-page__container {
+            color: @color-red-400;
+        }
+    }
+}
+
+@media (min-width: @breakpoint-paid-clp-lg-min) {
+    .discount-expiration {
+        color: @color-red-400;
+
+        .icon {
+            .paid-course-landing-page__container {
+                color: @color-red-400;
+            }
+        }
+    }
+}

@@ -209,7 +209,7 @@
                   class="instructor-links--instructor-links--8GNDS"
                   data-purpose="instructor-name-top"
                 >
-                  <span class="instructor-links--names--fJWai"
+                  <span class="names"
                     ><span class="ud-text-sm">创建者</span>
                     <a
                       class="ud-btn ud-btn-large ud-btn-link ud-heading-md ud-text-sm ud-instructor-links"
@@ -262,15 +262,15 @@
                       aria-label="隐藏式字幕"
                       role="img"
                       focusable="false"
-                      class="ud-icon ud-icon-xsmall ud-icon-color-neutral caption--subtitles-icon--6j6KM"
+                      class="ud-icon ud-icon-xsmall ud-icon-color-neutral subtitles-icon"
                     >
-                      <use xlink:href="#icon-subtitles"></use></svg
-                    ><span>简体中文 [自动],&nbsp;英语 [自动]</span
-                    ><span>,&nbsp;</span
-                    ><button
+                      <use xlink:href="#icon-subtitles"></use>
+                    </svg>
+                    <span>简体中文 [自动],&nbsp;英语 [自动]</span>
+                    <span>,&nbsp;</span>
+                    <button
                       type="button"
-                      class="ud-btn ud-btn-medium ud-btn-link ud-text-sm caption--more-button--qgehZ"
-                      data-purpose="caption-more"
+                      class="ud-btn ud-btn-medium ud-btn-link ud-text-sm more-button"
                     >
                       <span class="ud-btn-label">还有 14</span>
                     </button>
@@ -299,40 +299,34 @@
                       <div class="buy-box--buy-box-item--wT5bJ">
                         <div>
                           <div
-                            class="base-price-text-module--container--Sfv-5 ud-clp-price-text"
-                            data-purpose="price-text-container"
+                            class="base-price-text-module--container ud-clp-price-text"
                           >
                             <div
-                              class="base-price-text-module--price-part---xQlz ud-clp-discount-price ud-heading-xxl"
-                              data-purpose="course-price-text"
+                              class="price-part ud-clp-discount-price ud-heading-xxl"
                             >
-                              <span class="ud-sr-only">当前价格</span
-                              ><span><span>US$34.99</span></span>
+                              <span class="ud-sr-only">当前价格</span>
+                              <span><span>US$34.99</span></span>
                             </div>
                             <div
-                              class="base-price-text-module--price-part---xQlz base-price-text-module--original-price--C6BJt ud-clp-list-price ud-text-sm"
-                              data-purpose="original-price-container"
+                              class="price-part original-price ud-clp-list-price ud-text-sm"
                             >
                               <div data-purpose="course-old-price-text">
-                                <span class="ud-sr-only">原价</span
-                                ><span
+                                <span class="ud-sr-only">原价</span>
+                                <span
                                   ><s><span>US$199.99</span></s></span
                                 >
                               </div>
                             </div>
                             <div
-                              class="base-price-text-module--price-part---xQlz ud-clp-percent-discount ud-text-sm"
-                              data-purpose="discount-percentage"
+                              class="price-part ud-clp-percent-discount ud-text-sm"
                             >
-                              <span class="ud-sr-only">折扣</span
-                              ><span>82% 折扣</span>
+                              <span class="ud-sr-only">折扣</span>
+                              <span>82% 折扣</span>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div
-                        class="buy-box--buy-box-item--wT5bJ buy-box--discount-expiration--mv7OV"
-                      >
+                      <div class="buy-box-item discount-expiration">
                         <div
                           class="discount-expiration--discount-expiration--iSt-e"
                           data-purpose="discount-expiration"
@@ -352,7 +346,7 @@
                         </div>
                       </div>
                       <div
-                        class="buy-box--buy-box-item--wT5bJ buy-box--add-to-cart-button-wrapper--focmP"
+                        class="buy-box--buy-box-item buy-box--add-to-cart-button-wrapper--focmP"
                       >
                         <div data-purpose="add-to-cart">
                           <button
@@ -696,10 +690,10 @@
                   class="generic-purchase-section--main-cta-container--LGsJD"
                   data-purpose="purchase-section"
                 >
-                  <div class="generic-purchase-section--buy-box-main--W9rN0">
-                    <div class="buy-box--buy-box--KeMlj" data-purpose="buy-box">
-                      <div class="buy-box--buy-box-item--wT5bJ"></div>
-                      <div class="buy-box--buy-box-item--wT5bJ">
+                  <div class="generic-purchase-section--buy-box-main">
+                    <div class="buy-box">
+                      <div class="buy-box-item"></div>
+                      <div class="buy-box-item">
                         <div>
                           <div
                             class="base-price-text-module--container--Sfv-5 ud-clp-price-text"
@@ -733,29 +727,21 @@
                           </div>
                         </div>
                       </div>
-                      <div
-                        class="buy-box--buy-box-item--wT5bJ buy-box--discount-expiration--mv7OV"
-                      >
-                        <div
-                          class="discount-expiration--discount-expiration--iSt-e"
-                          data-purpose="discount-expiration"
-                        >
+                      <div class="buy-box-item discount-expiration">
+                        <div class="discount-expiration">
                           <svg
                             aria-label="alarm"
                             role="img"
                             focusable="false"
-                            class="ud-icon ud-icon-xsmall ud-icon-color-neutral discount-expiration--icon--kIpgu"
+                            class="ud-icon ud-icon-xsmall ud-icon-color-neutral discount-expiration"
                           >
-                            <use xlink:href="#icon-alarm"></use></svg
-                          ><span
-                            class="ud-text-sm"
-                            data-purpose="safely-set-inner-html:discount-expiration:expiration-text"
-                            >此优惠价格仅剩 <b>14 小时</b>！</span
-                          >
+                            <use xlink:href="#icon-alarm"></use>
+                          </svg>
+                          <span class="ud-text-sm">此优惠价格仅剩 <b>14 小时</b>！</span>
                         </div>
                       </div>
                       <div
-                        class="buy-box--buy-box-item--wT5bJ buy-box--add-to-cart-button-wrapper--focmP"
+                        class="buy-box-item add-to-cart-button-wrapper--focmP"
                       >
                         <div data-purpose="add-to-cart">
                           <button

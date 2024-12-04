@@ -1,0 +1,35 @@
+// @import (reference) '~@udemy/react-core-components/dist/button.global.less';
+@import (reference) './tokens.global.less';
+// @import (reference) '~course-landing-page/tokens.less';
+
+.buy-box {
+  .buy-box-item {
+      &:not(:empty) {
+          margin-bottom: @space-xs;
+      }
+
+      &.add-to-cart-button-wrapper {
+          margin-top: @space-sm;
+          display: flex;
+          align-items: center;
+          gap: @space-xs;
+
+          [data-purpose='add-to-cart'] {
+              flex: 1;
+          }
+      }
+
+      &.buy-button {
+          display: none;
+
+          @media (min-width: @breakpoint-paid-clp-lg-min) {
+              display: block;
+              margin: @space-xs 0;
+          }
+      }
+
+      &.discount-expiration {
+          margin-top: -@space-xxs;
+      }
+  }
+}

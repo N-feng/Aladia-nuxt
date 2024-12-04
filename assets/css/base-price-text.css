@@ -1,0 +1,18 @@
+.base-price-text-module--container {
+  align-items: center;
+  color: #2d2f31;
+  display: flex;
+  flex-flow: row wrap;
+}
+.price-part {
+  line-height: 1;
+  padding: 0.4rem 0;
+  margin-right: 0.8rem;
+  white-space: nowrap;
+}
+.price-part:last-child {
+  margin-right: 0;
+}
+.original-price {
+  color: #6a6f73;
+}

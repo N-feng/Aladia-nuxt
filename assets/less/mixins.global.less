@@ -1,5 +1,19 @@
 @import (reference) './tokens.global.less';
 
+.ud-ellipsis-n-lines(@n) {
+  // This mixin may be used for multi-line ellipsis. Note that ud-ellipsis-1-line() is better than
+  // ud-ellipsis-n-lines(1) because the white-space: nowrap enables the (...) to appear.
+  // http://codepen.io/martinwolf/pen/qlFdp
+  display: block !important;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box !important;
+  -webkit-line-clamp: @n;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
 .ud-text() {
   font-family: var(--font-stack-text);
   font-weight: @font-weight-normal;

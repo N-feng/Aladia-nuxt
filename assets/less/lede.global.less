@@ -13,7 +13,18 @@
   .clp-lead__element-item--row {
     display: flex;
     flex-wrap: wrap;
-  } 
+  }
+  
+  .clp-lead__caption,
+  .clp-lead__locale {
+      display: flex;
+      margin-right: @space-sm;
+
+      .icon {
+          margin-right: @space-xs;
+          margin-top: unit(2 * @px-to-rem, rem);
+      }
+  }
 
   .clp-lead__title {
       margin-bottom: @space-sm;
