@@ -87,7 +87,7 @@
                       >
                         <div>
                           <div
-                            class="plan-period-module--plan-period-multiline--R2iLQ  mb-sm font-xs color-subdued text-center"
+                            class="plan-period-module--plan-period-multiline--R2iLQ  mb-sm font-xs color-text-subdued text-center"
                           >
                             <span
                               >试用后每月
@@ -95,7 +95,7 @@
                             >
                           </div>
                           <div
-                            class="plan-period-module--cancel-anytime-multiline--JbaRs font-xs color-subdued text-center"
+                            class="plan-period-module--cancel-anytime-multiline--JbaRs font-xs color-text-subdued text-center"
                           >
                             随时取消
                           </div>
@@ -163,11 +163,11 @@
                               aria-label="alarm"
                               role="img"
                               focusable="false"
-                              class="ud-icon ud-icon-xsmall ud-icon-color-neutral discount-expiration--icon--kIpgu color-red"
+                              class="ud-icon ud-icon-xsmall ud-icon-color-neutral discount-expiration--icon--kIpgu color-red-400"
                             >
                               <use xlink:href="#icon-alarm"></use></svg
                             ><span
-                              class="ud-text-sm color-red"
+                              class="ud-text-sm color-red-400"
                               data-purpose="safely-set-inner-html:discount-expiration:expiration-text"
                               >此优惠价格仅剩 <b>8 小时</b>！</span
                             >

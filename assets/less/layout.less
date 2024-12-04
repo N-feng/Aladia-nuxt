@@ -50,3 +50,26 @@
   }
 
 }
+
+.flex-flow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  &.text li {
+    width: calc(50% - (@space-md / 2));
+  }
+}
+
+.what-will-you-learn {
+  border: @border-default;
+  padding: @space-md 0;
+}
+
+.show-more-bg {
+  -webkit-mask-image: linear-gradient(#ffffff, #ffffff, rgba(255, 255, 255, 0));
+}
+
+.basis-gap {
+  flex-basis: calc(100% - 33.33% - 3.2rem);
+}

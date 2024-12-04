@@ -42,4 +42,6 @@ export default {
 @import url("./assets/less/color.less");
 @import url("./assets/less/layout.less");
 @import url("./assets/less/purchase-section-container.less");
+@import url("./assets/less/list.less");
+@import url("./assets/less/border.less");
 </style>
