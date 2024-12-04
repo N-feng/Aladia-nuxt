@@ -5,7 +5,13 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-  css: [],
+  css: [
+    '~/assets/css/header.global.css',
+    '~/assets/css/smart-bar.css',
+    '~/assets/css/icon.global.css',
+    '~/assets/css/icon-button.global.css',
+    '~/assets/css/button.global.css',
+  ],
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
   shadcn: {
     /**

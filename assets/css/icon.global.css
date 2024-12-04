@@ -1,0 +1,62 @@
+.ud-icon {
+  fill: currentColor;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ud-icon-xxxsmall {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.ud-icon-xxsmall {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.ud-icon-xsmall {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.ud-icon-small {
+  width: 2rem;
+  height: 2rem;
+}
+.ud-icon-medium {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.ud-icon-large {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.ud-icon-xlarge {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.ud-icon-xxlarge {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+.ud-icon-xxxlarge {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+.ud-icon-color-neutral {
+  color: #2d2f31;
+}
+.ud-icon-color-positive {
+  color: #19a38c;
+}
+.ud-icon-color-negative {
+  color: #f4522d;
+}
+.ud-icon-color-info {
+  color: #5022c3;
+}
+.ud-icon-color-warning {
+  color: #f69c08;
+}
+.ud-icon-color-subdued {
+  color: #6a6f73;
+}
+.ud-icon-color-subdued-inverted {
+  color: #d1d7dc;
+}

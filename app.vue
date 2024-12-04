@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <AppHeader />
     <post-list></post-list>
+    <Svg />
   </div>
 </template>
 

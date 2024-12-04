@@ -1,0 +1,22 @@
+.ud-btn-icon {
+  min-width: auto;
+}
+.ud-btn-icon-xsmall {
+  padding: 0 0.6rem;
+  width: 2.8rem;
+}
+.ud-btn-icon-small {
+  padding: 0 0.6rem;
+  width: 3.4rem;
+}
+.ud-btn-icon-medium {
+  padding: 0 1rem;
+  width: 4rem;
+}
+.ud-btn-icon-large {
+  padding: 0 1.2rem;
+  width: 4.8rem;
+}
+.ud-btn-icon-round {
+  border-radius: 100rem;
+}
