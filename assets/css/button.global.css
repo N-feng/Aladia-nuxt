@@ -120,10 +120,12 @@
 .ud-btn-link.ud-btn-disabled,
 .ud-btn-link-underline,
 .ud-btn-link-underline.ud-btn-disabled {
-  color: #5022c3;
   background-color: transparent;
   min-width: auto;
   padding: 0;
+  &:hover {
+    color: #5022c3;
+  }
 }
 .ud-btn-link,
 .ud-btn-link-underline {

@@ -1,0 +1,32 @@
+.ud-text-input {
+  border: 1px solid #2d2f31;
+  border-radius: 0;
+  -webkit-appearance: none;
+  display: block;
+  padding: 0 1.6rem;
+  width: 100%;
+  /* stylelint-disable-next-line selector-no-vendor-prefix */
+  /* stylelint-disable-next-line selector-no-vendor-prefix */
+}
+.ud-text-input::-moz-placeholder {
+  color: #6a6f73;
+  opacity: 1;
+}
+.ud-text-input::-webkit-input-placeholder {
+  color: #6a6f73;
+}
+.ud-text-input:hover {
+  border-color: #101011;
+}
+.ud-text-input:focus {
+  border-color: #2d2f31;
+}
+.ud-text-input-small {
+  height: 3.4rem;
+}
+.ud-text-input-medium {
+  height: 4rem;
+}
+.ud-text-input-large {
+  height: 4.8rem;
+}

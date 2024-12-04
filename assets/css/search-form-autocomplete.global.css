@@ -1,0 +1,164 @@
+
+.ud-search-form-autocomplete {
+  position: relative;
+  /* No padding, margin-top at this level for the
+     * suggestions with images (MX only) experience
+     */
+}
+.ud-search-form-autocomplete .ud-search-form-autocomplete-input {
+  border: 0;
+  flex: 1;
+}
+.ud-search-form-autocomplete .ud-search-form-autocomplete-suggestions {
+  background: #fff;
+  border: 1px solid #d1d7dc;
+  left: 0;
+  padding: 1.6rem;
+  margin-top: 0.4rem;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  transform-origin: top;
+  z-index: 1000;
+  overflow: auto;
+}
+.ud-search-form-autocomplete .ud-search-form-autocomplete-suggestions-with-image {
+  background: #fff;
+  border: 1px solid #d1d7dc;
+  left: 0;
+  padding: 1.6rem;
+  margin-top: 0.4rem;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  transform-origin: top;
+  z-index: 1000;
+  overflow: auto;
+  padding: 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.ud-search-form-autocomplete-title {
+  display: flex;
+  height: 3.2rem;
+  padding: 1.2rem 1.2rem 0.8rem 1.2rem;
+  align-items: center;
+}
+.ud-search-form-autocomplete-title-text,
+.ud-search-form-autocomplete-title-action {
+  width: 100%;
+}
+.ud-search-form-autocomplete-title-action-text {
+  float: right;
+  cursor: pointer;
+}
+.ud-search-form-autocomplete-input-group {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2.4rem 0 0;
+}
+.ud-search-form-autocomplete-input-group-reversed {
+  flex-direction: row-reverse;
+}
+.ud-search-form-autocomplete-input-group-reversed .ud-search-form-autocomplete-input {
+  padding: 0 0 0 0.4rem;
+}
+/** Adds hover for block list item **/
+.ud-search-form-autocomplete-suggestion-block-list-item {
+  padding-left: 1.2rem;
+  padding-right: 0.8rem;
+}
+.ud-search-form-autocomplete-suggestion-block-list-item:hover {
+  background-color: #f7f9fa;
+}
+@media (max-width: 37.5rem) {
+  .ud-search-form-autocomplete-input-group {
+    padding: 0;
+  }
+  .ud-search-form-autocomplete-suggestions,
+  .ud-search-form-autocomplete-suggestions-with-image {
+    /*
+         * For scroll issues on mobile iOS:
+         * +40 vh - compensate for keyboard height
+         * -6.4 rem - search input height + margin between suggestions popup and input
+         */
+    height: calc(100vh + 40vh - 6.4rem);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .ud-search-form-autocomplete-suggestions,
+  .ud-search-form-autocomplete-suggestions-with-image {
+    animation: ud-search-form-autocomplete-expand 150ms cubic-bezier(0, 0, 0.38, 0.9);
+  }
+  .ud-search-form-autocomplete-suggestion {
+    /* stylelint-disable-next-line max-line-length */
+    animation: ud-search-form-autocomplete-fade-in 150ms linear 150ms forwards;
+    opacity: 0;
+  }
+}
+/** Layout for each result for auto complete variant **/
+.ud-search-form-autocomplete-group {
+  display: flex;
+  align-items: center;
+}
+/** Layout for each result for search result **/
+.ud-search-form-autocomplete-group-search {
+  height: 3.2rem;
+}
+/** Margin for icons used in result **/
+.ud-search-form-autocomplete-group-icon {
+  margin-top: 0.6rem;
+  margin-left: 0.4rem;
+  margin-right: 2rem;
+}
+.ud-search-form-autocomplete-group-course-img {
+  margin-right: 1.6rem;
+}
+.ud-search-form-autocomplete-group-course-img img {
+  border: 1px solid #d1d7dc;
+  max-width: none;
+}
+/** Margin for image used in result **/
+.ud-search-form-autocomplete-group-img {
+  margin-right: 1.6rem;
+}
+.ud-search-form-autocomplete-group-img img {
+  max-width: none;
+}
+/** Layout for label AND instructor name **/
+.ud-search-form-autocomplete-suggestion-details {
+  display: flex;
+  margin-top: 0.4rem;
+  align-items: center;
+  color: #6a6f73;
+}
+/** Adds padding between type label and instructor name **/
+.ud-search-form-autocomplete-suggestion-instructor-name {
+  padding-left: 0.8rem;
+}
+.ud-search-form-autocomplete-suggestion-focus {
+  outline: 4px solid #b4690e;
+}
+.ud-search-form-autocomplete-suggestion-content {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@keyframes ud-search-form-autocomplete-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes ud-search-form-autocomplete-expand {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}

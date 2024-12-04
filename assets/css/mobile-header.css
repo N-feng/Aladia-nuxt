@@ -1,0 +1,75 @@
+
+.mobile-header {
+  background: #fff;
+  height: 5.6rem;
+  padding: 0.4rem;
+  position: relative;
+  z-index: 1010;
+  display: none;
+}
+.with-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.middle {
+  flex: 1;
+  justify-content: center;
+}
+.button-spacer {
+  width: 4.8rem;
+  height: 4.8rem;
+  visibility: hidden;
+}
+.search-bar {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  z-index: 1011;
+}
+.search-bar .search-bar-form {
+  padding: 0.4rem 5.6rem 0.4rem 0.4rem;
+  max-width: none;
+  border-bottom: 1px solid #d1d7dc;
+}
+.search-bar .search-bar-form :global(.ud-search-form-autocomplete-suggestions) {
+  margin: 0;
+}
+.search-bar-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  z-index: 1;
+}
+.full-page-overlay {
+  background-color: #fff;
+}
+:global(#header-toggle-search-bar[data-checked='']) ~ .search-bar-layer {
+  display: none;
+}
+.header .cart-badge {
+  position: absolute;
+  font-size: 1.2rem;
+  margin: 0 0 0 -0.4rem;
+  top: 0;
+  left: 50%;
+}
+.mark {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.floating {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: slide-from-top 250ms cubic-bezier(0, 0, 0.38, 0.9) 0ms forwards;
+}

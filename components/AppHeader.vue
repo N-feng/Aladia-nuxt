@@ -36,5 +36,18 @@
         </div>
       </div>
     </section>
+    <header-mobile />
+    <header-desktop />
   </div>
 </template>
+
+<script>
+import HeaderMobile from './header/mobile.vue';
+import HeaderDesktop from './header/desktop.vue';
+export default {
+  components: {
+    'header-mobile': HeaderMobile,
+    'header-desktop': HeaderDesktop,
+  },
+};
+</script>

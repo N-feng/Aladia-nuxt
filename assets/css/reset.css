@@ -1,0 +1,11 @@
+:root {
+  --highcharts-background-color: var(--color-white);
+  --highcharts-neutral-color-100: var(--color-gray-600);
+  --highcharts-neutral-color-80: var(--color-gray-550);
+  --highcharts-neutral-color-60: var(--color-gray-500);
+  --highcharts-neutral-color-40: var(--color-gray-400);
+  --highcharts-neutral-color-20: var(--color-gray-200);
+  --highcharts-neutral-color-10: var(--color-gray-100);
+  --highcharts-positive-color: var(--color-green-400);
+  --highcharts-negative-color: var(--color-red-400);
+}

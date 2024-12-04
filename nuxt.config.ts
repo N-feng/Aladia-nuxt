@@ -6,11 +6,16 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
   css: [
+    '~/assets/css/reset.css',
     '~/assets/css/header.global.css',
     '~/assets/css/smart-bar.css',
     '~/assets/css/icon.global.css',
     '~/assets/css/icon-button.global.css',
     '~/assets/css/button.global.css',
+    '~/assets/css/mobile-header.css',
+    '~/assets/css/desktop-header.css',
+    '~/assets/css/search-form-autocomplete.global.css',
+    '~/assets/css/text-input.global.css',
   ],
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
   shadcn: {
