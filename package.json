@@ -2,6 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "description": "[Aladia-nuxt](https://n-feng.github.io/Aladia-nuxt)",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
