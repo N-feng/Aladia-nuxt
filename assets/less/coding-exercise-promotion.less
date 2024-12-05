@@ -1,0 +1,62 @@
+@import (reference) './tokens.global.less';
+
+@coding-exercise-content-proportional-realestate: 33.33%;
+@coding-exercise-content-image-spacing: @space-lg;
+@coding-exercise-image-proportional-realestate: calc(100% - @coding-exercise-content-proportional-realestate - @coding-exercise-content-image-spacing);
+
+.coding-exercise-container {
+    background-color: @background-color-pale;
+    padding: @space-md;
+    display: flex;
+    flex-direction: column;
+
+    .coding-exercise-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .coding-exercise-description {
+            color: @color-text-subdued;
+            padding-top: @space-sm;
+        }
+
+        .coding-exercise-modal-trigger {
+            padding-top: @space-sm;
+        }
+    }
+
+    .coding-exercise-image-container {
+        padding-top: @space-lg;
+
+        & > img {
+            box-shadow: @box-shadow-100;
+            width: 100%;
+        }
+    }
+}
+
+.coding-exercise-container-horizontal {
+  flex-direction: row;
+
+  .coding-exercise-content {
+      flex-basis: @coding-exercise-content-proportional-realestate;
+
+      .coding-exercise-description {
+          padding-bottom: @space-md;
+      }
+  }
+
+  .coding-exercise-image-container {
+      padding-top: 0;
+      margin-left: @coding-exercise-content-image-spacing;
+      display: flex;
+      justify-content: flex-end;
+      flex-basis: @coding-exercise-image-proportional-realestate;
+      max-height: unit((252 * @px-to-rem), rem);
+
+      & > img {
+          width: auto;
+      }
+  }
+}

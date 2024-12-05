@@ -9,7 +9,7 @@
   white-space: nowrap;
 }
 
-.course-container-comparison {
+.course-container--6e7jU {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -23,7 +23,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin: 0 0 0 2.4rem;
-  min-width: 20rem;
+  /* min-width: 20rem; */
 }
 
 .whole-card-link {
@@ -37,4 +37,41 @@
 .num-students {
   display: flex;
   margin: 0 3.2rem 0 2.4rem;
+}
+
+@media (max-width: 37.5rem) {
+  .course-container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .course-info {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.4rem;
+  }
+  .comparison-content {
+    margin-left: 7.4rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.4rem;
+  }
+  .wishlist-content {
+    display: none;
+  }
+  .price-text-container {
+    flex-direction: revert;
+    align-items: center;
+    flex-basis: 100%;
+    margin-top: 0.4rem;
+  }
+  .discount-price {
+    margin: 0 0.4rem 0 0;
+  }
+  .num-students {
+    margin: 0 0.8rem;
+  }
+  .course-badges {
+    margin-bottom: 0.4rem;
+  }
 }
