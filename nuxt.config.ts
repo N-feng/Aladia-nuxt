@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/Aladia-nuxt/' : '/',
+    buildAssetsDir: '/static/'
+  },
   css: [
     '~/assets/css/reset.css',
     '~/assets/css/header.global.css',
