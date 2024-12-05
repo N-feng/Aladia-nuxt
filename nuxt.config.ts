@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     '~/assets/css/recommendations.css',
     '~/assets/css/course-card.css',
     '~/assets/css/course-comparison.css',
+    '~/assets/css/block-list.global.css',
   ],
   hooks: {
     'build:manifest': (manifest) => {

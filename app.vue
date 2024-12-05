@@ -50,4 +50,5 @@ export default {
 @import url("./assets/less/panel.less");
 @import url("./assets/less/flex.less");
 @import url("./assets/less/sidebar.less");
+@import url("./assets/less/instructor.less");
 </style>

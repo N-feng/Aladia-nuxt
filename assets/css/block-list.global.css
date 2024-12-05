@@ -1,0 +1,51 @@
+.ud-block-list .ud-block-list-item {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  letter-spacing: normal;
+  white-space: normal;
+}
+/* stylelint-disable-next-line no-descending-specificity */
+.ud-block-list .ud-block-list-item {
+  padding: 0.8rem 0;
+}
+.ud-block-list .ud-block-list-item-tight {
+  padding: 0.4rem 0;
+}
+.ud-block-list .ud-block-list-item-loose {
+  padding: 1.6rem 0;
+}
+.ud-block-list-item-small .ud-block-list-item-icon,
+.ud-block-list-item-small .ud-block-list-item-content {
+  min-height: 1.96rem;
+}
+.ud-block-list-item-large .ud-block-list-item-icon,
+.ud-block-list-item-large .ud-block-list-item-content {
+  min-height: 2.24rem;
+}
+.ud-block-list .ud-block-list-item-link {
+  color: #5022c3;
+}
+.ud-block-list .ud-block-list-item-neutral {
+  color: #2d2f31;
+}
+.ud-block-list-item-content {
+  flex: 1;
+  /* stylelint-disable-next-line unit-disallowed-list */
+  min-width: 1px;
+}
+.ud-block-list-item-content-loading {
+  background: var(--color-gray-200);
+}
+.ud-block-list-item-icon + .ud-block-list-item-content {
+  margin-left: 1.6rem;
+}
+.ud-block-list-item-content + .ud-block-list-item-icon {
+  margin-left: 0.8rem;
+}
+.ud-block-list-item-icon.ud-notification-counter {
+  /* stylelint-disable-next-line unit-disallowed-list */
+  margin-top: -0.25em;
+}

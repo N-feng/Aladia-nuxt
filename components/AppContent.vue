@@ -859,5 +859,17 @@ export default {
     'PurchaseSectionTab': PurchaseSectionTab,
     'CourseLandingPage': CourseLandingPage,
   },
+  methods: {
+    handleScroll () {
+      // Your scroll handling here
+      // console.log(window.scrollY)
+    }
+  },
+  // beforeMount () {
+  //   window.addEventListener('scroll', this.handleScroll)
+  // },
+  // beforeDestroy () {
+  //   window.removeEventListener('scroll', this.handleScroll)
+  // }
 };
 </script>
