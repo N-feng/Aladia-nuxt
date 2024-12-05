@@ -22,6 +22,10 @@ export default defineNuxtConfig({
     '@/assets/css/tailwind.css',
     '~/assets/css/tabs.css',
     '~/assets/css/subscription-cta.css',
+    '~/assets/css/footer.css',
+    '~/assets/css/recommendations.css',
+    '~/assets/css/course-card.css',
+    '~/assets/css/course-comparison.css',
   ],
   hooks: {
     'build:manifest': (manifest) => {

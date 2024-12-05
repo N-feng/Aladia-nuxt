@@ -1,0 +1,83 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.base-text {
+  align-items: center;
+  color: #2d2f31;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.bundle-border {
+  display: block;
+  width: 100%;
+  border: 1px solid #d1d7dc;
+  padding: 2.4rem;
+}
+.course-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+.course-container > *:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+.fbt-discount-banner {
+  margin-bottom: 1.6rem;
+  align-items: center;
+}
+.course-unit-container {
+  position: relative;
+  flex: 1;
+  /* stylelint-disable unit-disallowed-list */
+  min-width: 1px;
+}
+.course-unit-container .plus-icon-wrapper {
+  display: none;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.price-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.price-text-prefix {
+  margin-right: 0.4rem;
+}
+.add-to-cart:global(.ud-btn) {
+  white-space: normal;
+}
+.bundle-course-card :global(.bundle-course-price) {
+  text-decoration: line-through;
+}
+@media screen and (min-width: 37.5625rem) {
+  .course-unit-container .course-unit-image {
+    width: 20rem;
+  }
+  .course-unit-container .plus-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 7.6rem;
+    top: -3.2rem;
+    height: 4.8rem;
+    width: 4.8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.24);
+    background-color: #fff;
+    border: 1px solid #d1d7dc;
+    border-radius: 50%;
+  }
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .price-text-container {
+    margin-bottom: 0;
+  }
+}

@@ -2,6 +2,7 @@
   <div id="app">
     <AppHeader />
     <AppContent />
+    <AppFooter />
     <!-- <post-list></post-list> -->
     <Svg />
   </div>
@@ -11,12 +12,14 @@
 import PostList from './components/PostList.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppContent from './components/AppContent.vue';
+import AppFooter from './components/AppFooter.vue';
 import Svg from './components/Svg.vue';
 export default {
   components: {
     'post-list': PostList,
     'AppHeader': AppHeader,
     'AppContent': AppContent,
+    'AppFooter': AppFooter,
     'Svg': Svg,
   },
 };

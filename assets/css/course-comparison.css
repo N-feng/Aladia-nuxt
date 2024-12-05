@@ -1,0 +1,34 @@
+.main-content {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 18rem;
+  min-width: 30rem;
+  margin: 0 0 0 0.8rem;
+  white-space: nowrap;
+}
+
+.course-container-comparison {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 1.6rem 0;
+  position: relative;
+}
+
+.comparison-content {
+  flex: 3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 0 0 2.4rem;
+}
+
+.whole-card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
