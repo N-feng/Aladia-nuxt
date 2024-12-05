@@ -10,7 +10,7 @@
         data-checked=""
         style="display: none"
       ></span>
-      <div class="show-more-module--content--Rw-xr" style="max-height: 61rem">
+      <div class="show-more-module--content--Rw-xr show-more-content" style="max-height: 61rem">
         <div tabindex="-1">
           <div
             class="course-comparison-module--content-container--mt-Om content-container"
@@ -32,7 +32,7 @@
                     >100 Days of Code: The Complete Python Pro Bootcamp</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs mr-4"
@@ -58,7 +58,7 @@
                   </div>
                 </div>
                 <div
-                  class="course-comparison-module--comparison-content--nMZ6i flex justify-between items-start ml-10 comparison-content"
+                  class="course-comparison-module--comparison-content--nMZ6i comparison-content"
                 >
                   <span
                     class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
@@ -129,7 +129,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div
@@ -222,7 +222,7 @@
                     >The Complete Python Developer</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs"
@@ -309,7 +309,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div
@@ -402,7 +402,7 @@
                     >Learn Python Programming Masterclass</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs"
@@ -489,7 +489,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div
@@ -582,7 +582,7 @@
                     >Learn Python Programming - Beginner to Master</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs"
@@ -669,7 +669,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div
@@ -762,7 +762,7 @@
                     >Automate the Boring Stuff with Python Programming</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs"
@@ -849,7 +849,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div
@@ -943,7 +943,7 @@
                     Apps</a
                   >
                   <div
-                    class="course-comparison-module--course-info--aiTYa flex whitespace-nowrap"
+                    class="course-comparison-module--course-info--aiTYa course-info"
                   >
                     <div
                       class="course-comparison-module--course-badges--lkggs"
@@ -959,7 +959,7 @@
                   </div>
                 </div>
                 <div
-                  class="course-comparison-module--comparison-content--nMZ6i flex-3 flex justify-between items-start ml-10 comparison-content"
+                  class="course-comparison-module--comparison-content--nMZ6i comparison-content"
                 >
                   <span
                     class="star-rating-module--star-wrapper--i1cJH star-rating-module--medium--Lpe62 star-rating-module--numeric--qcZmU inline-flex items-center"
@@ -1030,7 +1030,7 @@
                     ></span
                   >
                   <div
-                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu"
+                    class="base-price-text-module--container--Sfv-5 course-comparison-module--price-text-container--zjmDu price-text-container"
                     data-purpose="price-text-container"
                   >
                     <div

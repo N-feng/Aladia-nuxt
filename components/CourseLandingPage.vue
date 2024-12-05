@@ -614,7 +614,7 @@
                                 >Auto-Welcome Message</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button hidden-on-mobile"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -633,7 +633,7 @@
                             style="flex: 1 1 0%"
                           ></span
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em hidden-on-mobile"
                             >00:44</span
                           >
                         </div>
@@ -662,7 +662,7 @@
                                 ></button
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button hidden-on-mobile"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -685,11 +685,11 @@
                             class="ud-btn ud-btn-large ud-btn-link ud-text-sm h-auto	"
                           >
                             <span
-                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5 underline"
+                              class="section--hidden-on-mobile---ITMr section--preview-text--YETr5 underline hidden-on-mobile"
                               >预览</span
                             ></button
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em ml-10"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em ml-10 hidden-on-mobile"
                             >06:39</span
                           >
                         </div>
@@ -713,7 +713,7 @@
                                 >Course Curriculum Overview</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button hidden-on-mobile"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -732,7 +732,7 @@
                             style="flex: 1 1 0%"
                           ></span
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em hidden-on-mobile"
                             >04:00</span
                           >
                         </div>
@@ -756,7 +756,7 @@
                                 >Why Python?</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button hidden-on-mobile"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -775,7 +775,7 @@
                             style="flex: 1 1 0%"
                           ></span
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em hidden-on-mobile"
                             >05:17</span
                           >
                         </div>
@@ -799,7 +799,7 @@
                                 >Course FAQs</span
                               ><button
                                 type="button"
-                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button"
+                                class="ud-btn ud-btn-small ud-btn-ghost ud-btn-round ud-heading-sm ud-btn-icon ud-btn-icon-small ud-btn-icon-round section--hidden-on-mobile---ITMr section--toggle-item-description-button---wEPE toggle-item-description-button hidden-on-mobile"
                                 aria-expanded="false"
                               >
                                 <svg
@@ -818,7 +818,7 @@
                             style="flex: 1 1 0%"
                           ></span
                           ><span
-                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em"
+                            class="section--hidden-on-mobile---ITMr section--item-content-summary--Aq9em hidden-on-mobile"
                             >02:33</span
                           >
                         </div>
@@ -1553,7 +1553,7 @@
             style="display: none"
           ></span>
           <div
-            class="show-more-module--content--Rw-xr"
+            class="show-more-module--content--Rw-xr show-more-bg"
             style="max-height: 10rem"
           >
             <div tabindex="-1">

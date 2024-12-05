@@ -52,4 +52,5 @@ export default {
 @import url("./assets/less/sidebar.less");
 @import url("./assets/less/instructor.less");
 @import url("./assets/less/coding-exercise-promotion.less");
+@import url("./assets/less/section.less");
 </style>

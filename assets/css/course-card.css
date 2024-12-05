@@ -44,7 +44,7 @@
     min-width: 25.6rem;
   }
 }
-.medium {
+.medium-1 {
   gap: 0.8rem;
   grid-template-rows: auto 1fr;
   max-width: 37.5rem;

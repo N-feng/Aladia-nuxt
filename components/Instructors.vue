@@ -252,7 +252,7 @@
             style="display: none"
           ></span>
           <div
-            class="show-more-module--content--Rw-xr"
+            class="show-more-module--content--Rw-xr show-more-bg-"
             style="max-height: 14.6rem"
           >
             <div tabindex="-1">
