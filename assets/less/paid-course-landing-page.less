@@ -46,8 +46,9 @@
     }
 
     .background-inner-position-container {
-        margin: 0 auto;
-        max-width: 108.4rem;
+        .clp-container-margins();
+        // margin: 0 auto;
+        // max-width: 108.4rem;
     }
 
     .dark-background-inner-text-container {
@@ -178,5 +179,20 @@
         position: absolute;
         top: @clp-background-top-padding;
         margin-left: @space-xl + @paid-clp-main-width + @space-xl;
+    }
+
+    @media (min-width: @breakpoint-paid-clp-xl-min) {
+        p, h1, h2, h3, h4, h5, h6, ul, ol {
+            max-width: @paid-clp-max-width-lg;
+        }
+
+        .course-landing-page__shortcut_navigation,
+        .course-landing-page__main-content {
+            max-width: @paid-clp-main-width-lg;
+        }
+
+        .course-landing-page_sidebar-container {
+            margin-left: @space-xl + @paid-clp-main-width-lg + @space-xl;
+        }
     }
 }

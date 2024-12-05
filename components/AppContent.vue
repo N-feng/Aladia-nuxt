@@ -347,15 +347,12 @@
                 </div>
               </div>
             </div>
-            <div
-              class="sidebar-container--purchase-section--XWCM-"
-              data-client-side-render-only="CSR: purchase_section"
-            >
-              <div
-                class="purchase-section-container--purchase-section-container--mgZp7"
-              >
+            <div class="sidebar-container--purchase-section--XWCM- p-10">
+              <div class="purchase-section-container--purchase-section-container--mgZp7">
+
+                <PurchaseSectionTab />
                 <div
-                  class="generic-purchase-section--main-cta-container--LGsJD"
+                  class="generic-purchase-section--main-cta-container--LGsJD hidden"
                   data-purpose="purchase-section"
                 >
                   <div class="generic-purchase-section--buy-box-main">
@@ -854,10 +851,12 @@
 
 <script>
 import PurchaseSection from './components/PurchaseSection.vue';
+import PurchaseSectionTab from './components/PurchaseSectionTab.vue';
 import CourseLandingPage from './components/CourseLandingPage.vue';
 export default {
   components: {
     'PurchaseSection': PurchaseSection,
+    'PurchaseSectionTab': PurchaseSectionTab,
     'CourseLandingPage': CourseLandingPage,
   },
 };
