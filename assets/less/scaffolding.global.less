@@ -116,6 +116,22 @@ body {
   .ud-body-scaffolding();
 }
 
+body,
+.ud-main-content-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body {
+  min-width: @desktop-min-width;
+}
+
+.ud-main-content-wrapper,
+.ud-main-content {
+    flex: 1 0 auto;
+}
+
 a {
   color: @color-text-link;
   text-decoration: none;

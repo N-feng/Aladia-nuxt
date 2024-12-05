@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="ud-main-content-wrapper">
     <AppHeader />
     <AppContent />
     <AppFooter />
